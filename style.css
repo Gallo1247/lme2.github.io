@@ -75,6 +75,12 @@ body {
 
 
 /* Simple styles */
+
+.title0 {
+    text-align: center;
+    background-color: gainsboro;
+}
+
 .title1 {
     text-align: center;
     /*flex: 100%;*/
@@ -83,15 +89,9 @@ body {
     margin: 0px;
 }
 
-.title0 {
-    text-align: center;
-    background-color: gainsboro;
-}
-
-p {
-    padding: 5px;
-    text-align: center;
-    margin: 5px;
+.title1d {
+    width: 75%;
+    margin: auto;
 }
 
 .title2 {
@@ -100,6 +100,12 @@ p {
     width: 40%;
     margin: auto;
     background-color: gainsboro;
+}
+
+p {
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
 }
 
 .container {
