@@ -12,12 +12,14 @@ body {
 .header {
     padding: 5px;
     text-align: center;
+    font-family: GothamMedium;
     color: white;
     background: linear-gradient(to top right, #5763dd, #c466ac);
 }
 
 .header h1 {
     font-size: 40px;
+    font-family: Gotham;
 }
 
 /* Navbar */
