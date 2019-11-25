@@ -1,14 +1,19 @@
 body {
-    font-family: Montserrat, Helvetica, sans-serif;
+    font-family: GothamLight;
     margin: 0;
 }
+
+/* Font */
+@font-face {font-family: Gotham;  src: url("fonts/Gotham.otf");}
+@font-face {font-family: GothamLight;src: url("fonts/Gotham-Light.otf");}
+@font-face {font-family: GothamMedium;src: url("fonts/Gotham-Medium.otf");}
 
 /* Headers */
 .header {
     padding: 5px;
     text-align: center;
     color: white;
-    background: #7C63B2;
+    background: linear-gradient(to top right, #5763dd, #c466ac);
 }
 
 .header h1 {
@@ -25,6 +30,7 @@ body {
 }
 
 .navbar a {
+    font-family: Gotham;
     float: left;
     display: block;
     color: white;
@@ -75,13 +81,14 @@ body {
 
 
 /* Simple styles */
-
 .title0 {
     text-align: center;
     background-color: gainsboro;
+    font-family: Gotham;
 }
 
 .title1 {
+    font-family: GothamMedium;
     text-align: center;
     /*flex: 100%;*/
     background-color: gainsboro;
@@ -95,6 +102,7 @@ body {
 }
 
 .title2 {
+    font-family: GothamMedium;
     margin: 5px;
     text-align: center;
     width: 40%;
