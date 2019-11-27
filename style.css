@@ -29,6 +29,7 @@ body {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    z-index: 10;
 }
 
 .navbar a {
@@ -133,13 +134,9 @@ p {
 }
 .tablecell {
     border-left: 1px solid gainsboro;
-    width: 50%;
-    flex: 50%;
-    min-width: 50%;
-    max-width: 50%;
     flex-wrap: wrap;
     padding: 5px;
-    text-align: center;
+    text-align: left;
 }
 .l-corresponder {
     vertical-align: middle;
@@ -186,3 +183,28 @@ p {
 .link:hover {
     text-decoration:underline;
 }
+
+
+/* Dropdown */ /*
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #ffffff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: auto;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+*/
