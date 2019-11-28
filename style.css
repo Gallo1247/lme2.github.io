@@ -185,7 +185,7 @@ p {
 }
 
 
-/* Dropdown */ /*
+/* Dropdown */
 .dropbtn {
     cursor: pointer;
 }
@@ -200,11 +200,17 @@ p {
     position: absolute;
     right: 0;
     background-color: #ffffff;
-    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     width: auto;
+    min-width: 250px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.drp-left {
+    min-width: 20%;
+    max-width: 20%;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
-*/
