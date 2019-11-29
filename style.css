@@ -214,3 +214,10 @@ p {
 }
 
 .dropdown:hover .dropdown-content {display: block;}
+
+
+
+td {
+    background-color: #F0F0F0;
+}
+
