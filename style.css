@@ -221,3 +221,11 @@ td {
     background-color: #F0F0F0;
 }
 
+footer {
+    text-align: center;
+    padding-top:5px;
+    padding-bottom: 5px;
+    background-color: #F0F0F0;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
