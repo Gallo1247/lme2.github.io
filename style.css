@@ -3,6 +3,14 @@ body {
     margin: 0;
 }
 
+:root {
+    --demc: #3333FF;
+    --repc: #E81B23;
+    --indc: gray;
+    --mwpc: #CC8960;
+    --noc: gainsboro;
+}
+
 /* Font */
 @font-face {font-family: Gotham;  src: url("fonts/Gotham.otf");}
 @font-face {font-family: GothamLight;src: url("fonts/Gotham-Light.otf");}
@@ -153,12 +161,16 @@ p {
     margin-bottom: 0px;
 }
 
-.r-rep {border-left: 2px solid #E81B23;}
-.l-rep {border-right: 2px solid #E81B23;}
-.r-dem {border-left: 2px solid #3333FF;}
-.l-dem {border-right: 2px solid #3333FF;}
-.r-ind {border-left: 2px solid gainsboro;}
-.l-ind {border-right: 2px solid gainsboro;}
+.r-rep {border-left: 2px solid var(--repc);}
+.l-rep {border-right: 2px solid var(--repc);}
+.r-dem {border-left: 2px solid var(--demc);}
+.l-dem {border-right: 2px solid var(--demc);}
+.r-mwp {border-left: 2px solid var(--mwpc);}
+.l-mwp {border-right: 2px solid var(--mwpc);}
+.r-ind {border-left: 2px solid var(--indc);}
+.l-ind {border-right: 2px solid var(--indc);}
+.r-vac {border-left: 2px solid var(--noc);}
+.l-vac {border-right: 2px solid var(--noc);}
 
 .tablecell-left {
     border-right: 1px solid gainsboro;
