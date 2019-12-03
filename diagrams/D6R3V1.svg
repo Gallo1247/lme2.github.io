@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:svg="http://www.w3.org/2000/svg"
+xmlns="http://www.w3.org/2000/svg" version="1.1"
+width="360" height="185">
+<!-- Created with the Wikimedia parliament diagram creator (http://tools.wmflabs.org/parliamentdiagram/parliamentinputform.html) -->
+<g>
+<text x="175" y="175" style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;font-family:sans-serif">10</text>
+  <g style="fill:#3333FF; stroke:none" id="DemocraticParty">
+    <circle cx="31.32" cy="160.12" r="20.00"/>
+    <circle cx="81.97" cy="160.26" r="20.00"/>
+    <circle cx="66.06" cy="82.44" r="20.00"/>
+    <circle cx="135.84" cy="90.28" r="20.00"/>
+    <circle cx="137.46" cy="36.16" r="20.00"/>
+    <circle cx="222.54" cy="36.16" r="20.00"/>
+  </g>
+  <g style="fill:#DCDCDC; stroke:none" id="Vacant">
+    <circle cx="224.16" cy="90.28" r="20.00"/>
+  </g>
+  <g style="fill:#E81B23; stroke:none" id="RepublicanParty">
+    <circle cx="293.94" cy="82.44" r="20.00"/>
+    <circle cx="278.03" cy="160.26" r="20.00"/>
+    <circle cx="328.68" cy="160.12" r="20.00"/>
+  </g>
+</g>
+</svg>
