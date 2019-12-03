@@ -193,9 +193,11 @@ p {
 }
 
 .link:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
+.list-link {text-decoration: none;}
+.list-link:hover {text-decoration: underline;}
 
 /* Dropdown */
 .dropbtn {
