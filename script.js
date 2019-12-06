@@ -4,3 +4,16 @@ function footer() {
     html += '</footer>';
 	document.write(html);
 }
+
+function navbar() {
+    var html = '<div class="navbar">';
+    html += '<a href="/index.html" class="active">Homepage</a>';
+    html += '<a href="/government.html">Government</a>';
+    html += '<a href="/elections/Dec19.html">Elections</a>';
+    html += '<a href="/legislation.html">Laws</a>';
+    html += '<a href="/rankings.html">Politicians</a>';
+    html += '<a href="/parties.html">Parties</a>';
+    html += '<a href="https://discord.gg/D33wqMs" class="right">Join</a>';
+    html += '</div>';
+    document.write(html)
+}
