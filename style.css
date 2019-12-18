@@ -4,11 +4,12 @@ body {
 }
 
 :root {
-    --demc: #3333FF;
-    --repc: #E81B23;
-    --indc: gray;
-    --mwpc: #CC8960;
-    --noc: gainsboro;
+    --demc: #3333FF; /* Democratic Party */
+    --repc: #E81B23; /* Republican Party */
+    --mwpc: #CC8960; /* Midwest Party */
+    --grnc: #00A95C; /* Green Party */
+    --indc: gray; /* Independent */
+    --noc: gainsboro; /* Vacant */
 }
 
 /* Font */
@@ -167,6 +168,8 @@ p {
 .l-dem {border-right: 2px solid var(--demc);}
 .r-mwp {border-left: 2px solid var(--mwpc);}
 .l-mwp {border-right: 2px solid var(--mwpc);}
+.r-grn {border-left: 2px solid var(--grnc);}
+.l-grn {border-right: 2px solid var(--grnc);}
 .r-ind {border-left: 2px solid var(--indc);}
 .l-ind {border-right: 2px solid var(--indc);}
 .r-vac {border-left: 2px solid var(--noc);}
