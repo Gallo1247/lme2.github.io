@@ -199,6 +199,12 @@ p {
     text-decoration: underline;
 }
 
+.small-link {
+    color: dimgray;
+    text-decoration:  none;
+}
+.small-link:hover {text-decoration: underline}
+
 .list-link {text-decoration: none;}
 .list-link:hover {text-decoration: underline;}
 
