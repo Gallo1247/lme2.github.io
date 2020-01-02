@@ -1,0 +1,13 @@
+<electionslist>
+    <election id="PreDec19" name="December 2019 LME2 Presidential election" parties="no">
+        <div name="us" totalvotes="94">
+            <candidate name="Vui" party="I" votes="65" change="New" rank="1" elected="yes"/>
+            <candidate name="Amazer" party="R" votes="29" change="New" rank="2"/>
+        </div>
+    </election>
+    <election id="VprDec19" name="December 2019 LME2 Vice-presidential election" parties="no">
+        <div name="us" totalvotes="94">
+            <candidate name="Paul" party="I" votes="94" change="New" rank="1" elected="yes":></candidate>
+        </div>
+    </election>
+</electionslist>
