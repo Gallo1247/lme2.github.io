@@ -5,9 +5,30 @@
             <candidate name="Amazer" party="R" votes="29" change="New" rank="2"/>
         </div>
     </election>
+    
     <election id="VprDec19" name="December 2019 LME2 Vice-presidential election" parties="no">
         <div name="us" totalvotes="94">
-            <candidate name="Paul" party="I" votes="94" change="New" rank="1" elected="yes":></candidate>
+            <candidate name="Paul" party="I" votes="94" change="New" rank="1" elected="yes"/>
+        </div>
+    </election>
+    
+    <election id="SenDec19" name="December 2019 LME2 Senate elections" parties="yes">
+        <div name="us" totalvotes="188" totalseats="10">
+            <candidate name="Democratic Party" party="D" votes="82" seats="4" change="New" seatchange="New" rank="1" elected="yes"/>
+            <candidate name="Republican Party" party="R" votes="66" seats="4" change="New" seatchange="New" rank="2"/>
+            <candidate name="Blobcat Party" party="Bc" votes="6" seats="0" change="New" seatchange="New" rank="3"/>
+            <candidate name="Midwest Party" party="MWP" votes="4" seats="0" change="New" seatchange="New" rank="4"/>
+            <candidate name="Independents" party="I" votes="30" seats="2" change="New" seatchange="New" rank="5"/>
+        </div>
+    </election>
+    
+    <election id="HorDec19" name="December 2019 LME2 House elections" parties="yes">
+        <div name="us" totalvotes="94" totalseats="15">
+            <candidate name="Democratic Party" party="D" votes="37" seats="6" change="New" seatchange="New" rank="1" elected="yes"/>
+            <candidate name="Republican Party" party="R" votes="23" seats="4" change="New" seatchange="New" rank="2"/>
+            <candidate name="Midwest Party" party="MWP" votes="4" seats="1" change="New" seatchange="New" rank="3"/>
+            <candidate name="Jewish National Party" party="JNP" votes="2" seats="0" change="New" seatchange="New" rank="4"/>
+            <candidate name="Independents" party="I" votes="23" seats="4" change="New" seatchange="New" rank="5"/>
         </div>
     </election>
 </electionslist>
