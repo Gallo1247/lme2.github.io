@@ -4,11 +4,46 @@
             <candidate name="Vui" party="I" votes="65" change="New" rank="1" elected="yes"/>
             <candidate name="Amazer" party="R" votes="29" change="New" rank="2"/>
         </div>
+        <div name="ov" totalvotes="17">
+            <candidate name="Vui" party="I" votes="10" change="New" rank="1" elected="yes"/>
+            <candidate name="Amazer" party="R" votes="7" change="New" rank="2"/>
+        </div>
+        <div name="pl" totalvotes="22">
+            <candidate name="Vui" party="I" votes="19" change="New" rank="1" elected="yes"/>
+            <candidate name="Amazer" party="R" votes="3" change="New" rank="2"/>
+        </div>
+        <div name="dx" totalvotes="20">
+            <candidate name="Vui" party="I" votes="11" change="New" rank="1" elected="yes"/>
+            <candidate name="Amazer" party="R" votes="9" change="New" rank="2"/>
+        </div>
+        <div name="ln" totalvotes="17">
+            <candidate name="Vui" party="I" votes="11" change="New" rank="1" elected="yes"/>
+            <candidate name="Amazer" party="R" votes="6" change="New" rank="2"/>
+        </div>
+        <div name="pc" totalvotes="18">
+            <candidate name="Vui" party="I" votes="14" change="New" rank="1" elected="yes"/>
+            <candidate name="Amazer" party="R" votes="4" change="New" rank="2"/>
+        </div>
     </election>
     
     <election id="VprDec19" name="December 2019 LME2 Vice-presidential election" parties="no">
         <div name="us" totalvotes="94">
             <candidate name="Paul" party="I" votes="94" change="New" rank="1" elected="yes"/>
+        </div>
+        <div name="ov" totalvotes="17">
+            <candidate name="Paul" party="I" votes="17" change="New" rank="1" elected="yes"/>
+        </div>
+        <div name="pl" totalvotes="22">
+            <candidate name="Paul" party="I" votes="22" change="New" rank="1" elected="yes"/>
+        </div>
+        <div name="dx" totalvotes="20">
+            <candidate name="Paul" party="I" votes="20" change="New" rank="1" elected="yes"/>
+        </div>
+        <div name="ln" totalvotes="17">
+            <candidate name="Paul" party="I" votes="17" change="New" rank="1" elected="yes"/>
+        </div>
+        <div name="pc" totalvotes="18">
+            <candidate name="Paul" party="I" votes="18" change="New" rank="1" elected="yes"/>
         </div>
     </election>
     
@@ -20,6 +55,22 @@
             <candidate name="Midwest Party" party="MWP" votes="4" seats="0" change="New" seatchange="New" rank="4"/>
             <candidate name="Independents" party="I" votes="30" seats="2" change="New" seatchange="New" rank="5"/>
         </div>
+        <div name="OV" totalvotes="17" totalseats="1">
+            <candidate name="Majorero" party="R" votes="9" change="New" rank="1" elected="yes"/>
+            <candidate name="Nibblesnow" party="D" votes="8" change="New" rank="2"/>
+        </div>
+        <div name="ov" totalvotes="17" totalseats="1">
+            <candidate name="Estagal" party="R" votes="10" change="New" rank="1" elected="yes"/>
+            <candidate name="Julio974" party="D" votes="7" change="New" rank="2"/>
+        </div>
+        <div name="NE" totalvotes="22" totalseats="1">
+            <candidate name="Thom" party="D" votes="13" change="New" rank="1" elected="yes"/>
+            <candidate name="Michael" party="R" votes="9" change="New" rank="2"/>
+        </div>
+        <div name="ne" totalvotes="22" totalseats="1">
+            <candidate name="Centauri" party="I" votes="12" change="New" rank="1" elected="yes"/>
+            <candidate name="Moss" party="D" votes="10" change="New" rank="2"/>
+        </div>
     </election>
     
     <election id="HorDec19" name="December 2019 LME2 House elections" parties="yes">
@@ -29,6 +80,29 @@
             <candidate name="Midwest Party" party="MWP" votes="4" seats="1" change="New" seatchange="New" rank="3"/>
             <candidate name="Jewish National Party" party="JNP" votes="2" seats="0" change="New" seatchange="New" rank="4"/>
             <candidate name="Independents" party="I" votes="23" seats="4" change="New" seatchange="New" rank="5"/>
+        </div>
+        <div name="ov" totalvotes="17" totalseats="2">
+            <candidate name="Corsair" party="R" votes="7" change="New" rank="1" elected="yes"/>
+            <candidate name="Osito Marcus" party="D" votes="4" change="New" rank="2" elected="yes"/>
+            <candidate name="KingMarine" party="D" votes="3" change="New" rank="3"/>
+            <candidate name="Cube" party="JP" votes="2" change="New" rank="4"/>
+            <candidate name="Thread" party="I" votes="1" change="New" rank="5"/>
+            <primary party="D" totalvotes="3">
+                <candidate name="Osito Marcus" votes="2" nominee="yes"/>
+                <candidate name="KingMarine" votes="1" nominee="yes"/>
+            </primary>
+        </div>
+        <div name="ne" totalvotes="22" totalseats="4">
+            <candidate name="Jhon Pete" party="R" votes="10" change="New" rank="1" elected="yes"/>
+            <candidate name="Spruce" party="D" votes="4" change="New" rank="2" elected="yes"/>
+            <candidate name="Dino" party="R" votes="3" change="New" rank="3" elected="yes"/>
+            <candidate name="Bill" party="D" votes="2" change="New" rank="4" elected="r"/>
+            <candidate name="Catman" party="R" votes="2" change="New" rank="5" elected="r"/>
+            <candidate name="Hippity" party="R" votes="1" change="New" rank="6"/>
+            <runoff totalvotes="22">
+                <candidate name="Bill" party="D" votes="13" elected="yes"/>
+                <candidate name="Catman" party="R" votes="10"/>
+            </runoff>
         </div>
     </election>
 </electionslist>
