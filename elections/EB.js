@@ -66,7 +66,7 @@ function buildEB(xml,divId) {
                 } else if (score > 50.25) {
                     row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' 49.75%,black 49.75%,black 50.25%,'+PartyColor(candidate.getAttribute('party'))+' 50.25%,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
                 } else {
-                    row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' 0%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
+                    row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' 49.75%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
                 }
             } else {
                 row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
@@ -78,13 +78,14 @@ function buildEB(xml,divId) {
 
             if (election.getAttribute('parties') == 'yes' && reg.getAttribute('name') == 'us') { // Number of seats
                 row += '<td width="25%" style="background-image:';
+                console.log(score);
                 if (candidate.getAttribute('rank') == 1) {
                     if (score < 49.75) {
                         row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%,#F0F0F0 49.25%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
                     } else if (score > 50.25) {
                         row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' 49.75%,black 49.75%,black 50.25%,'+PartyColor(candidate.getAttribute('party'))+' 50.25%,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
                     } else {
-                        row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' 0%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
+                        row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' 49.75%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
                     }
                 } else {
                     row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
@@ -146,15 +147,15 @@ function buildEB(xml,divId) {
                 row += '</td>'
 
                 // Name
-                if (tempcandidate.getAttribute('elected') == 'yes') {elected = 'font-weight:bold;';} else if (tempcandidate.getAttribute('elected') == 'r') {elected = 'font-style:italics;'} else {elected = '';}
-                row += '<td width="25%" style="padding:3px;white-space:nowrap;'+elected+'">'+tempcandidate.getAttribute('name')+' <abbr title="'+PartyName(runoff.getAttribute('party'))+'" style="text-decoration:none;">('+runoff.getAttribute('party')+')</abbr></td>';
+                if (tempcandidate.getAttribute('elected') == 'yes') {elected = 'font-weight:bold;';} else {elected = '';}
+                row += '<td width="25%" style="padding:3px;white-space:nowrap;'+elected+'">'+tempcandidate.getAttribute('name')+' <abbr title="'+PartyName(tempcandidate.getAttribute('party'))+'" style="text-decoration:none;">('+tempcandidate.getAttribute('party')+')</abbr></td>';
 
                 // Scorebar
-                score = Math.round(1000*tempcandidate.getAttribute('votes') / prim.getAttribute('totalvotes'))/10
+                score = Math.round(1000*tempcandidate.getAttribute('votes') / candidate.getAttribute('totalvotes'))/10
 
                 if (election.getAttribute('parties') == 'no' || reg.getAttribute('name') != 'us') {row += '<td width="100%" style="background-image:';} else {row += '<td width="50%" style="background-image:';}
-                row += 'linear-gradient(90deg,'+PartyColor(prim.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
-                row += ';text-align:right;font-size:125%;'+nominee+'">';
+                row += 'linear-gradient(90deg,'+PartyColor(tempcandidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
+                row += ';text-align:right;font-size:125%;'+elected+'">';
                 row += '<abbr style="text-decoration:none;" title="'+tempcandidate.getAttribute('votes')+' votes">'+score+'%</abbr></td></tr>';
             }
             row += '</tbody>'
@@ -170,10 +171,10 @@ function buildEB(xml,divId) {
 }
 
 function toggler(item) {
-    if (item.style.display == 'none') {
-        item.style.display = 'table-row-group'
-    } else {
+    if (item.style.display == 'table-row-group') {
         item.style.display = 'none'
+    } else {
+        item.style.display = 'table-row-group'
     }
 }
 
