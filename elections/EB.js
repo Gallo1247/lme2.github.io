@@ -49,7 +49,7 @@ function buildEB(xml,divId) {
             }
 
             // Name
-            if (candidate.getAttribute('elected') == 'yes') {elected = 'font-weight:bold;';} else if (candidate.getAttribute('elected') == 'r') {elected = 'font-style:italics;'} else {elected = '';}
+            if (candidate.getAttribute('elected') == 'yes') {elected = 'font-weight:bold;';} else if (candidate.getAttribute('elected') == 'r') {elected = 'font-style:italic;'} else {elected = '';}
             if (election.getAttribute('parties') == 'yes' && reg.getAttribute('name') == 'us') {
                 row += '<td width="10%" style="padding:3px;font-size:175%;white-space:nowrap;'+elected+'">'+'<abbr title="'+candidate.getAttribute('name')+'" style="text-decoration:none;">'+candidate.getAttribute('party')+'</abbr></td>';
             } else {
@@ -78,7 +78,6 @@ function buildEB(xml,divId) {
 
             if (election.getAttribute('parties') == 'yes' && reg.getAttribute('name') == 'us') { // Number of seats
                 row += '<td width="25%" style="background-image:';
-                console.log(score);
                 if (candidate.getAttribute('rank') == 1) {
                     if (score < 49.75) {
                         row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%,#F0F0F0 49.25%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
@@ -91,7 +90,9 @@ function buildEB(xml,divId) {
                     row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
                 }
                 row += ';text-align:right;font-size:150%;'+elected+'">';
-                row += '<ruby>'+candidate.getAttribute('seats')+' seats<rt>'+candidate.getAttribute('change')+'</rt></ruby></td>';
+                row += '<ruby>'+candidate.getAttribute('seats')+' seat';
+                if (candidate.getAttribute('seats') != 1) {row += 's'}
+                row += '<rt>'+candidate.getAttribute('change')+'</rt></ruby></td>';
                 row += '</tr>'
             }
         } else if (candidate.tagName == 'primary') {
@@ -114,7 +115,7 @@ function buildEB(xml,divId) {
                 row += '</td>'
 
                 // Name
-                if (tempcandidate.getAttribute('nominee') == 'yes') {nominee = 'font-weight:bold;';} else if (tempcandidate.getAttribute('nominee') == 'r') {nominee = 'font-style:italics;'} else {nominee = '';}
+                if (tempcandidate.getAttribute('nominee') == 'yes') {nominee = 'font-weight:bold;';} else if (tempcandidate.getAttribute('nominee') == 'r') {nominee = 'font-style:italic;'} else {nominee = '';}
                 row += '<td width="25%" style="padding:3px;white-space:nowrap;'+nominee+'">'+tempcandidate.getAttribute('name')+' <abbr title="'+PartyName(prim.getAttribute('party'))+'" style="text-decoration:none;">('+prim.getAttribute('party')+')</abbr></td>';
 
                 // Scorebar
@@ -135,8 +136,9 @@ function buildEB(xml,divId) {
             row += '<tbody class="runoff-collapsible">'
             
             var j = 0;
-            for (j=0;j<prim.childElementCount;j++) {
+            for (j=0;j<runoff.childElementCount;j++) {
                 tempcandidate = runoff.children[j];
+                console.log(tempcandidate)
                 
                 
                 
@@ -185,7 +187,7 @@ function PartyName(abbr) {
         case 'MWP': return('Midwest Party');
         case 'MP': return('Majorero Party');
         case 'KMP': return('King\'s Movement Party');
-        case 'JP': return('Jewish Party');
+        case 'J': return('Jewish Party');
         case 'F': return('Federalist');
         case 'DNV': return('DNV');
         case 'G': return('Green Party');
@@ -201,7 +203,7 @@ function PartyColor(abbr) {
         case 'MWP': return('#CC8960');
         case 'MP': return('#BB3A7A');
         case 'KMP': return('#EFBD40');
-        case 'JP': return('#F092C4');
+        case 'J': return('#F092C4');
         case 'F': return('#000000');
         case 'DNV': return('#734815');
         case 'G': return('#00A95C');

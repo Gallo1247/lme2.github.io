@@ -1,28 +1,30 @@
 <electionslist>
+    
+    <!-- Dec19 -->
     <election id="PreDec19" name="December 2019 LME2 Presidential election" parties="no">
         <div name="us" totalvotes="94">
             <candidate name="Vui" party="I" votes="65" change="New" rank="1" elected="yes"/>
-            <candidate name="Amazer" party="R" votes="29" change="New" rank="2"/>
+            <candidate name="Amazer" party="R" votes="29" change="New"/>
         </div>
         <div name="ov" totalvotes="17">
             <candidate name="Vui" party="I" votes="10" change="New" rank="1" elected="yes"/>
-            <candidate name="Amazer" party="R" votes="7" change="New" rank="2"/>
+            <candidate name="Amazer" party="R" votes="7" change="New"/>
         </div>
         <div name="pl" totalvotes="22">
             <candidate name="Vui" party="I" votes="19" change="New" rank="1" elected="yes"/>
-            <candidate name="Amazer" party="R" votes="3" change="New" rank="2"/>
+            <candidate name="Amazer" party="R" votes="3" change="New"/>
         </div>
         <div name="dx" totalvotes="20">
             <candidate name="Vui" party="I" votes="11" change="New" rank="1" elected="yes"/>
-            <candidate name="Amazer" party="R" votes="9" change="New" rank="2"/>
+            <candidate name="Amazer" party="R" votes="9" change="New"/>
         </div>
         <div name="ln" totalvotes="17">
             <candidate name="Vui" party="I" votes="11" change="New" rank="1" elected="yes"/>
-            <candidate name="Amazer" party="R" votes="6" change="New" rank="2"/>
+            <candidate name="Amazer" party="R" votes="6" change="New"/>
         </div>
         <div name="pc" totalvotes="18">
             <candidate name="Vui" party="I" votes="14" change="New" rank="1" elected="yes"/>
-            <candidate name="Amazer" party="R" votes="4" change="New" rank="2"/>
+            <candidate name="Amazer" party="R" votes="4" change="New"/>
         </div>
     </election>
     
@@ -50,34 +52,34 @@
     <election id="SenDec19" name="December 2019 LME2 Senate elections" parties="yes">
         <div name="us" totalvotes="188" totalseats="10">
             <candidate name="Democratic Party" party="D" votes="82" seats="4" change="New" seatchange="New" rank="1" elected="yes"/>
-            <candidate name="Republican Party" party="R" votes="66" seats="4" change="New" seatchange="New" rank="2"/>
-            <candidate name="Blobcat Party" party="Bc" votes="6" seats="0" change="New" seatchange="New" rank="3"/>
-            <candidate name="Midwest Party" party="MWP" votes="4" seats="0" change="New" seatchange="New" rank="4"/>
-            <candidate name="Independents" party="I" votes="30" seats="2" change="New" seatchange="New" rank="5"/>
+            <candidate name="Republican Party" party="R" votes="66" seats="4" change="New" seatchange="New"/>
+            <candidate name="Blobcat Party" party="Bc" votes="6" seats="0" change="New" seatchange="New"/>
+            <candidate name="Midwest Party" party="MWP" votes="4" seats="0" change="New" seatchange="New"/>
+            <candidate name="Independents" party="I" votes="30" seats="2" change="New" seatchange="New"/>
         </div>
         <div name="OV" totalvotes="17" totalseats="1">
             <candidate name="Majorero" party="R" votes="9" change="New" rank="1" elected="yes"/>
-            <candidate name="Nibblesnow" party="D" votes="8" change="New" rank="2"/>
+            <candidate name="Nibblesnow" party="D" votes="8" change="New"/>
         </div>
         <div name="ov" totalvotes="17" totalseats="1">
             <candidate name="Estagal" party="R" votes="10" change="New" rank="1" elected="yes"/>
-            <candidate name="Julio974" party="D" votes="7" change="New" rank="2"/>
+            <candidate name="Julio974" party="D" votes="7" change="New"/>
         </div>
         <div name="PL" totalvotes="22" totalseats="1">
             <candidate name="Thom" party="D" votes="13" change="New" rank="1" elected="yes"/>
-            <candidate name="Michael" party="R" votes="9" change="New" rank="2"/>
+            <candidate name="Michael" party="R" votes="9" change="New"/>
         </div>
         <div name="pl" totalvotes="22" totalseats="1">
             <candidate name="Centauri" party="I" votes="12" change="New" rank="1" elected="yes"/>
-            <candidate name="Moss" party="D" votes="10" change="New" rank="2"/>
+            <candidate name="Moss" party="D" votes="10" change="New"/>
         </div>
         <div name="DX" totalvotes="20" totalseats="1">
-            <candidate name="Tanisha" party="D" votes="14" change="New" rank="1" elected="yes"/>
-            <candidate name="LapisLuna" party="Bc" votes="6" change="New" rank="2"/>
+            <candidate name="MS Dhoni" party="D" votes="14" change="New" rank="1" elected="yes"/>
+            <candidate name="LapisLuna" party="Bc" votes="6" change="New"/>
         </div>
         <div name="dx" totalvotes="20" totalseats="1">
             <candidate name="Trees Warmer" party="I" votes="13" change="New" rank="1" elected="yes"/>
-            <candidate name="Suraj" party="R" votes="7" change="New" rank="2"/>
+            <candidate name="Suraj" party="R" votes="7" change="New"/>
             <primary party="R" totalvotes="7">
                 <candidate name="Suraj" votes="5" nominee="yes"/>
                 <candidate name="DustinTheNow" votes="2" nominee="yes"/>
@@ -85,8 +87,8 @@
         </div>
         <div name="LN" totalvotes="17" totalseats="1">
             <candidate name="Bamgo" party="R" votes="8" change="New" rank="1" elected="yes"/>
-            <candidate name="Huey" party="I" votes="5" change="New" rank="2"/>
-            <candidate name="Holy Boyo" party="MWP" votes="4" change="New" rank="3"/>
+            <candidate name="Huey" party="I" votes="5" change="New"/>
+            <candidate name="Holy Boyo" party="MWP" votes="4" change="New"/>
         </div>
         <div name="ln" totalvotes="17" totalseats="1">
             <candidate name="Toucan" party="D" votes="10" change="New" rank="1" elected="yes"/>
@@ -94,14 +96,14 @@
                 <candidate name="Toucan" votes="5" nominee="yes"/>
                 <candidate name="Armour Doge" votes="3"/>
             </primary>
-            <candidate name="Alex Smith" party="R" votes="7" change="New" rank="2"/>
+            <candidate name="Alex Smith" party="R" votes="7" change="New"/>
         </div>
         <div name="PC" totalvotes="18" totalseats="1">
             <candidate name="Dan" party="R" votes="9" change="New" rank="1" elected="r"/>
-            <candidate name="German" party="I" votes="9" change="New" rank="2" elected="r"/>
+            <candidate name="German" party="I" votes="9" change="New" elected="r"/>
             <runoff totalvotes="20">
                 <candidate name="Dan" party="R" votes="11" rank="1" elected="yes"/>
-                <candidate name="German" party="D" votes="9" rank="2"/>
+                <candidate name="German" party="D" votes="9"/>
             </runoff>
         </div>
         <div name="pc" totalvotes="18" totalseats="1">
@@ -111,24 +113,24 @@
                 <candidate name="Ricky" votes="1"/>
                 <candidate name="German" votes="1"/>
             </primary>
-            <candidate name="Cruz" party="R" votes="7" change="New" rank="2"/>
+            <candidate name="Cruz" party="R" votes="7" change="New"/>
         </div>
     </election>
     
     <election id="HorDec19" name="December 2019 LME2 House elections" parties="yes">
         <div name="us" totalvotes="94" totalseats="15">
             <candidate name="Democratic Party" party="D" votes="37" seats="6" change="New" seatchange="New" rank="1" elected="yes"/>
-            <candidate name="Republican Party" party="R" votes="23" seats="4" change="New" seatchange="New" rank="2"/>
-            <candidate name="Midwest Party" party="MWP" votes="4" seats="1" change="New" seatchange="New" rank="3"/>
-            <candidate name="Jewish National Party" party="JNP" votes="2" seats="0" change="New" seatchange="New" rank="4"/>
-            <candidate name="Independents" party="I" votes="23" seats="4" change="New" seatchange="New" rank="5"/>
+            <candidate name="Republican Party" party="R" votes="23" seats="4" change="New" seatchange="New"/>
+            <candidate name="Midwest Party" party="MWP" votes="4" seats="1" change="New" seatchange="New"/>
+            <candidate name="Jewish National Party" party="JNP" votes="2" seats="0" change="New" seatchange="New"/>
+            <candidate name="Independents" party="I" votes="23" seats="4" change="New" seatchange="New"/>
         </div>
         <div name="ov" totalvotes="17" totalseats="2">
             <candidate name="Corsair" party="R" votes="7" change="New" rank="1" elected="yes"/>
-            <candidate name="Osito Marcus" party="D" votes="4" change="New" rank="2" elected="yes"/>
-            <candidate name="KingMarine" party="D" votes="3" change="New" rank="3"/>
-            <candidate name="Cube" party="JP" votes="2" change="New" rank="4"/>
-            <candidate name="Thread" party="I" votes="1" change="New" rank="5"/>
+            <candidate name="Osito Marcus" party="D" votes="4" change="New" elected="yes"/>
+            <candidate name="KingMarine" party="D" votes="3" change="New"/>
+            <candidate name="Cube" party="J" votes="2" change="New"/>
+            <candidate name="Thread" party="I" votes="1" change="New"/>
             <primary party="D" totalvotes="3">
                 <candidate name="Osito Marcus" votes="2" nominee="yes"/>
                 <candidate name="KingMarine" votes="1" nominee="yes"/>
@@ -136,11 +138,11 @@
         </div>
         <div name="pl" totalvotes="22" totalseats="4">
             <candidate name="Jhon Pete" party="D" votes="10" change="New" rank="1" elected="yes"/>
-            <candidate name="Spruce" party="D" votes="4" change="New" rank="2" elected="yes"/>
-            <candidate name="Dino" party="R" votes="3" change="New" rank="3" elected="yes"/>
-            <candidate name="Bill" party="D" votes="2" change="New" rank="4" elected="r"/>
-            <candidate name="Catman" party="R" votes="2" change="New" rank="5" elected="r"/>
-            <candidate name="Hippity" party="R" votes="1" change="New" rank="6"/>
+            <candidate name="Spruce" party="D" votes="4" change="New" elected="yes"/>
+            <candidate name="Dino" party="R" votes="3" change="New" elected="yes"/>
+            <candidate name="Bill" party="D" votes="2" change="New" elected="r"/>
+            <candidate name="Catman" party="R" votes="2" change="New" elected="r"/>
+            <candidate name="Hippity" party="R" votes="1" change="New"/>
             <runoff totalvotes="22">
                 <candidate name="Bill" party="D" votes="13" elected="yes"/>
                 <candidate name="Catman" party="R" votes="10"/>
@@ -148,13 +150,13 @@
         </div>
         <div name="dx" totalvotes="20" totalseats="4">
             <candidate name="Thomas" party="I" votes="4" change="New" rank="1" elected="yes"/>
-            <candidate name="DustinTheNow" party="I" votes="2" change="New" rank="2" elected="yes"/>
-            <candidate name="QuertyTurdy" party="I" votes="2" change="New" rank="3" elected="yes"/>
-            <candidate name="Mystic Mudsdale" party="R" votes="2" change="New" rank="4" elected="yes"/>
-            <candidate name="Comandante" party="R" votes="1" change="New" rank="5"/>
-            <candidate name="Xibei" party="D" votes="1" change="New" rank="6"/>
-            <candidate name="Cello" party="I" votes="1" change="New" rank="7"/>
-            <candidate name="Ben10" party="D" votes="1" change="New" rank="8"/>
+            <candidate name="DustinTheNow" party="I" votes="2" change="New" elected="yes"/>
+            <candidate name="QuertyTurdy" party="I" votes="2" change="New" elected="yes"/>
+            <candidate name="Mystic Mudsdale" party="R" votes="2" change="New" elected="yes"/>
+            <candidate name="Comandante" party="R" votes="1" change="New"/>
+            <candidate name="Xibei" party="D" votes="1" change="New"/>
+            <candidate name="Cello" party="I" votes="1" change="New"/>
+            <candidate name="Ben10" party="D" votes="1" change="New"/>
             <primary party="D" totalvotes="7">
                 <candidate name="Xibei" votes="5" nominee="yes"/>
                 <candidate name="Ben10" votes="2" nominee="yes"/>
@@ -168,19 +170,111 @@
         </div>
         <div name="ln" totalvotes="17" totalseats="2">
             <candidate name="Raccoon Man" party="D" votes="4" change="New" rank="1" elected="yes"/>
-            <candidate name="Bxuzabc" party="MWP" votes="4" change="New" rank="2" elected="yes"/>
-            <candidate name="Gus" party="I" votes="3" change="New" rank="3"/>
-            <candidate name="Rox" party="D" votes="2" change="New" rank="4"/>
-            <candidate name="Justin DF" party="I" votes="2" change="New" rank="5"/>
-            <candidate name="Nathan" party="R" votes="2" change="New" rank="6"/>
+            <candidate name="Bxuzabc" party="MWP" votes="4" change="New" elected="yes"/>
+            <candidate name="Gus" party="I" votes="3" change="New"/>
+            <candidate name="Rox" party="D" votes="2" change="New"/>
+            <candidate name="Justin DF" party="I" votes="2" change="New"/>
+            <candidate name="Nathan" party="R" votes="2" change="New"/>
         </div>
         <div name="pc" totalvotes="18" totalseats="3">
             <candidate name="Obama" party="I" votes="6" change="New" rank="1" elected="yes"/>
-            <candidate name="Spicy" party="D" votes="5" change="New" rank="2" elected="yes"/>
-            <candidate name="Hubble" party="R" votes="3" change="New" rank="3" elected="yes"/>
-            <candidate name="Guy" party="I" votes="2" change="New" rank="4"/>
-            <candidate name="Rocket" party="R" votes="1" change="New" rank="5"/>
-            <candidate name="TheCakeMuffinCrew" party="D" votes="1" change="New" rank="6"/>
+            <candidate name="Spicy" party="D" votes="5" change="New" elected="yes"/>
+            <candidate name="Hubble" party="R" votes="3" change="New" elected="yes"/>
+            <candidate name="Guy" party="I" votes="2" change="New"/>
+            <candidate name="Rocket" party="R" votes="1" change="New"/>
+            <candidate name="TheCakeMuffinCrew" party="D" votes="1" change="New"/>
+        </div>
+    </election>
+    
+    <!-- Jan20 -->
+    <election id="SenJan20" name="January 2020 LME2 Senate elections" parties="yes">
+        <div name="us" totalvotes="42" totalseats="10">
+            <candidate name="Jew Party" party="J" votes="13" seats="1" rank="1" elected="yes"/>
+            <candidate name="Majorero Party" party="MP" votes="7" seats="5"/>
+            <candidate name="King's Movement Party" party="KMP" votes="5" seats="0"/>
+            <candidate name="Democratic Party" party="D" votes="4" seats="1"/>
+            <candidate name="Republican Party" party="R" votes="0" seats="1"/>
+            <candidate name="Independents" party="I" votes="18" seats="2"/>
+        </div>
+        <div name="OV" totalvotes="12" totalseats="1">
+            <candidate name="Majorero Ꞩ" party="MP" votes="7" rank="1" elected="yes"/>
+            <candidate name="KingMarine" party="KMP" votes="5"/>
+        </div>
+        <div name="pl" totalvotes="17" totalseats="1">
+            <candidate name="Centauri Ꞩ" party="J" votes="13" rank="1" elected="yes"/>
+            <candidate name="Archer" party="D" votes="4"/>
+        </div>
+        <div name="dx" totalvotes="13" totalseats="1">
+            <candidate name="MS Dhoni Ꞩ" party="I" votes="8" rank="1" elected="yes"/>
+        </div>
+        <div name="pc" totalvotes="12" totalseats="1">
+            <candidate name="Fil" party="I" votes="10" rank="1" elected="yes"/>
+        </div>
+    </election>
+    <election id="HorJan20" name="January 2020 LME2 House elections" parties="yes">
+        <div name="us" totalvotes="54" totalseats="16">
+            <candidate name="Democratic Party" party="D" votes="16" seats="5" rank="1" elected="yes"/>
+            <candidate name="Republican Party" party="R" votes="12" seats="4"/>
+            <candidate name="Jew Party" party="J" votes="6" seats="1"/>
+            <candidate name="Federalist Party" party="F" votes="2" seats="0"/>
+            <candidate name="Independents" party="I" votes="17" seats="5"/>
+        </div>
+        <div name="ov" totalvotes="12" totalseats="2">
+            <candidate name="Corsair Ꞧ" party="R" votes="6" rank="1" elected="yes"/>
+            <candidate name="Magnetar" party="D" votes="6" elected="yes"/>
+            <candidate name="Nibblesnow" party="D" votes="0"/>
+        </div>
+        <div name="pl" totalvotes="17" totalseats="5">
+            <candidate name="Adam" party="J" votes="6" rank="1" elected="yes"/>
+            <candidate name="Jhon Pete Ꞧ" party="D" votes="3" elected="yes"/>
+            <candidate name="Bill" party="D" votes="2" elected="r"/>
+            <candidate name="Whale" party="I" votes="2" elected="r"/>
+            <candidate name="ADrewster" party="I" votes="2" elected="r"/>
+            <candidate name="Hippity" party="F" votes="2" elected="r"/>
+            <primary party="D" totalvotes="9">
+                <candidate name="Bill" votes="5" nominee="yes"/>
+                <candidate name="Jhon Pete Ꞧ" votes="4" nominee="yes"/>
+            </primary>
+            <runoff totalvotes="18">
+                <candidate name="Whale" party="I" votes="8" elected="yes"/>
+                <candidate name="Bill" party="D" votes="6" elected="yes"/>
+                <candidate name="Hippity" party="F" votes="4"/>
+            </runoff>
+        </div>
+        <div name="dx" totalvotes="13" totalseats="4">
+            <candidate name="DustinTheNow Ꞧ" party="I" votes="5" elected="yes"/>
+            <candidate name="Xibei" party="D" votes="2" elected="yes"/>
+            <candidate name="Thomas Ꞧ" party="I" votes="2" elected="yes"/>
+            <candidate name="Mystic Mudsdale Ꞧ" party="R" votes="2" elected="yes"/>
+            <candidate name="Suraj" party="R" votes="1"/>
+            <candidate name="LapisLuna" party="Other" votes="1"/>
+            <primary party="R" totalvotes="6">
+                <candidate name="Suraj" votes="5" nominee="yes"/>
+                <candidate name="Mystic Mudsdale" votes="1" nominee="yes"/>
+            </primary>
+        </div>
+        <div name="ln" totalvotes="14" totalseats="2">
+            <candidate name="Rox" party="R" votes="5" rank="1" elected="yes"/>
+            <candidate name="Pence" party="D" votes="4" elected="r"/>
+            <candidate name="Henry IX" party="R" votes="4" elected="r"/>
+            <candidate name="Justin DF" party="I" votes="2"/>
+            <candidate name="Nathan" party="I" votes="1"/>
+            <runoff totalvotes="9">
+                <candidate name="Pence" party="D" votes="5" elected="yes"/>
+                <candidate name="Henry IX" party="R" votes="4"/>
+            </runoff>
+        </div>
+        <div name="pc" totalvotes="12" totalseats="3">
+            <candidate name="TexasInd4Ever" party="D" votes="3" rank="1" elected="r"/>
+            <candidate name="Obama Ꞧ" party="I" votes="3" elected="r"/>
+            <candidate name="Hubble Ꞧ" party="R" votes="3" elected="r"/>
+            <candidate name="Guy" party="I" votes="3" elected="r"/>
+            <runoff totalvotes="13">
+                <candidate name="Obama Ꞧ" party="I" votes="6" elected="yes"/>
+                <candidate name="Hubble Ꞧ" party="R" votes="4" elected="yes"/>
+                <candidate name="Guy" party="I" votes="2" elected="yes"/>
+                <candidate name="TexasInd4Ever" party="D" votes="1"/>
+            </runoff>
         </div>
     </election>
 </electionslist>
