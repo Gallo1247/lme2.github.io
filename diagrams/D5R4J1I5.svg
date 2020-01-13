@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:svg="http://www.w3.org/2000/svg"
+xmlns="http://www.w3.org/2000/svg" version="1.1"
+width="360" height="185">
+<!-- Created with the Wikimedia parliament diagram creator (http://tools.wmflabs.org/parliamentdiagram/parliamentinputform.html) -->
+<g>
+<text x="175" y="175" style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;font-family:sans-serif">15</text>
+  <g style="fill:#3333FF; stroke:none" id="DemocraticParty">
+    <circle cx="31.32" cy="160.12" r="20.00"/>
+    <circle cx="81.97" cy="160.26" r="20.00"/>
+    <circle cx="47.82" cy="109.09" r="20.00"/>
+    <circle cx="106.66" cy="112.02" r="20.00"/>
+    <circle cx="81.21" cy="67.12" r="20.00"/>
+  </g>
+  <g style="fill:#808080; stroke:none" id="Independents">
+    <circle cx="127.23" cy="39.59" r="20.00"/>
+    <circle cx="152.90" cy="83.74" r="20.00"/>
+    <circle cx="180.00" cy="30.00" r="20.00"/>
+    <circle cx="207.10" cy="83.74" r="20.00"/>
+  </g>
+  <g style="fill:#E81B23; stroke:none" id="RepublicanParty">
+    <circle cx="232.77" cy="39.59" r="20.00"/>
+    <circle cx="278.79" cy="67.12" r="20.00"/>
+    <circle cx="253.34" cy="112.02" r="20.00"/>
+    <circle cx="312.18" cy="109.09" r="20.00"/>
+    <circle cx="278.03" cy="160.26" r="20.00"/>
+    <circle cx="328.68" cy="160.12" r="20.00"/>
+  </g>
+</g>
+</svg>

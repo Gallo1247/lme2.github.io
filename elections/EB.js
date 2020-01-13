@@ -201,7 +201,7 @@ function PartyColor(abbr) {
         case 'D': return('#3333FF');
         case 'R': return('#E81B23');
         case 'MWP': return('#CC8960');
-        case 'MP': return('#BB3A7A');
+        case 'MP': return('#0E8518');
         case 'KMP': return('#EFBD40');
         case 'J': return('#F092C4');
         case 'F': return('#000000');

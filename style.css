@@ -7,6 +7,8 @@ body {
     --demc: #3333FF; /* Democratic Party */
     --repc: #E81B23; /* Republican Party */
     --mwpc: #CC8960; /* Midwest Party */
+    --jewc: #F092C4; /* Jew Party */
+    --majc: #0E8518; /* Majorero Party */
     --grnc: #00A95C; /* Green Party */
     --indc: gray; /* Independent */
     --noc: gainsboro; /* Vacant */
@@ -174,6 +176,10 @@ p {
 .l-ind {border-right: 2px solid var(--indc);}
 .r-vac {border-left: 2px solid var(--noc);}
 .l-vac {border-right: 2px solid var(--noc);}
+.r-maj {border-left: 2px solid var(--majc);}
+.l-maj {border-right: 2px solid var(--majc);}
+.r-jew {border-left: 2px solid var(--jewc);}
+.l-jew {border-right: 2px solid var(--jewc);}
 
 .tablecell-left {
     border-right: 1px solid gainsboro;

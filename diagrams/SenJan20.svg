@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="360"
+   height="185"
+   id="svg31"
+   sodipodi:docname="SenJan20.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata37">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs35" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     id="namedview33"
+     showgrid="false"
+     inkscape:zoom="0.83611111"
+     inkscape:cx="180"
+     inkscape:cy="92.5"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g29" />
+  <!-- Created with the Wikimedia parliament diagram creator (http://tools.wmflabs.org/parliamentdiagram/parliamentinputform.html) -->
+  <g
+     id="g29">
+    <text
+       x="175"
+       y="175"
+       style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;font-family:sans-serif"
+       id="text2">10</text>
+    <g
+       style="fill:#3333FF; stroke:none"
+       id="DemocraticParty">
+      <circle
+         cx="31.32"
+         cy="160.12"
+         r="20.00"
+         id="circle4" />
+    </g>
+    <g
+       style="fill:#F092C4; stroke:none"
+       id="JewParty">
+      <circle
+         cx="81.97"
+         cy="160.26"
+         r="20.00"
+         id="circle7" />
+    </g>
+    <g
+       style="fill:#808080; stroke:none"
+       id="Independents">
+      <circle
+         cx="66.06"
+         cy="82.44"
+         r="20.00"
+         id="circle10" />
+      <circle
+         cx="135.84"
+         cy="90.28"
+         r="20.00"
+         id="circle12" />
+    </g>
+    <g
+       style="fill:#0e8518;stroke:none;fill-opacity:1"
+       id="MajoreroParty">
+      <circle
+         cx="137.46"
+         cy="36.16"
+         r="20.00"
+         id="circle15"
+         style="fill:#0e8518;fill-opacity:1" />
+      <circle
+         cx="222.54"
+         cy="36.16"
+         r="20.00"
+         id="circle17"
+         style="fill:#0e8518;fill-opacity:1" />
+      <circle
+         cx="224.16"
+         cy="90.28"
+         r="20.00"
+         id="circle19"
+         style="fill:#0e8518;fill-opacity:1" />
+      <circle
+         cx="293.94"
+         cy="82.44"
+         r="20.00"
+         id="circle21"
+         style="fill:#0e8518;fill-opacity:1" />
+      <circle
+         cx="278.03"
+         cy="160.26"
+         r="20.00"
+         id="circle23"
+         style="fill:#0e8518;fill-opacity:1" />
+    </g>
+    <g
+       style="fill:#E81B23; stroke:none"
+       id="RepublicanParty">
+      <circle
+         cx="328.68"
+         cy="160.12"
+         r="20.00"
+         id="circle26" />
+    </g>
+  </g>
+</svg>
