@@ -142,7 +142,7 @@
             <candidate name="Dino" party="R" votes="3" change="New" elected="yes"/>
             <candidate name="Bill" party="D" votes="2" change="New" elected="r"/>
             <candidate name="Catman" party="R" votes="2" change="New" elected="r"/>
-            <candidate name="Hippity" party="R" votes="1" change="New"/>
+            <candidate name="Spiro" party="R" votes="1" change="New"/>
             <runoff totalvotes="22">
                 <candidate name="Bill" party="D" votes="13" elected="yes"/>
                 <candidate name="Catman" party="R" votes="10"/>
@@ -230,7 +230,7 @@
             <candidate name="Bill" party="D" votes="2" change="+2.7pp" elected="r"/>
             <candidate name="Whale" party="I" votes="2" change="New" elected="r"/>
             <candidate name="ADrewster" party="I" votes="2" change="New" elected="r"/>
-            <candidate name="Hippity" party="F" votes="2" change="+7.3pp" elected="r"/>
+            <candidate name="Spiro" party="F" votes="2" change="+7.3pp" elected="r"/>
             <primary party="D" totalvotes="9">
                 <candidate name="Bill" votes="5" nominee="yes"/>
                 <candidate name="Jhon Pete" votes="4" inc="hor" nominee="yes"/>
@@ -238,7 +238,7 @@
             <runoff totalvotes="18">
                 <candidate name="Whale" party="I" votes="8" elected="yes"/>
                 <candidate name="Bill" party="D" votes="6" elected="yes"/>
-                <candidate name="Hippity" party="F" votes="4"/>
+                <candidate name="Spiro" party="F" votes="4"/>
             </runoff>
         </div>
         <div name="dx" totalvotes="13" totalseats="4">
