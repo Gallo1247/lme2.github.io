@@ -50,10 +50,19 @@ function buildEB(xml,divId) {
 
             // Name
             if (candidate.getAttribute('elected') == 'yes') {elected = 'font-weight:bold;';} else if (candidate.getAttribute('elected') == 'r') {elected = 'font-style:italic;'} else {elected = '';}
+            switch (candidate.getAttribute('inc')) {
+                case 'pre': incumbent = ' Ꝑ';break;
+                case 'vpr': incumbent = ' Ꝟ';break;
+                case 'sen': incumbent = ' Ꞩ';break;
+                case 'hor': incumbent = ' Ꞧ';break;
+                case 'cab': incumbent = ' Ȼ';break;
+                default: incumbent = '';break;
+            }
+            
             if (election.getAttribute('parties') == 'yes' && reg.getAttribute('name') == 'us') {
                 row += '<td width="10%" style="padding:3px;font-size:175%;white-space:nowrap;'+elected+'">'+'<abbr title="'+candidate.getAttribute('name')+'" style="text-decoration:none;">'+candidate.getAttribute('party')+'</abbr></td>';
             } else {
-                row += '<td width="25%" style="padding:3px;font-size:125%;white-space:nowrap;'+elected+'">'+candidate.getAttribute('name')+' <abbr title="'+PartyName(candidate.getAttribute('party'))+'" style="text-decoration:none;">('+candidate.getAttribute('party')+')</abbr></td>';
+                row += '<td width="25%" style="padding:3px;font-size:125%;white-space:nowrap;'+elected+'">'+candidate.getAttribute('name')+' <abbr title="'+PartyName(candidate.getAttribute('party'))+'" style="text-decoration:none;">('+candidate.getAttribute('party')+')'+incumbent+'</abbr></td>';
             }
 
             // Scorebar
@@ -116,7 +125,15 @@ function buildEB(xml,divId) {
 
                 // Name
                 if (tempcandidate.getAttribute('nominee') == 'yes') {nominee = 'font-weight:bold;';} else if (tempcandidate.getAttribute('nominee') == 'r') {nominee = 'font-style:italic;'} else {nominee = '';}
-                row += '<td width="25%" style="padding:3px;white-space:nowrap;'+nominee+'">'+tempcandidate.getAttribute('name')+' <abbr title="'+PartyName(prim.getAttribute('party'))+'" style="text-decoration:none;">('+prim.getAttribute('party')+')</abbr></td>';
+                switch (tempcandidate.getAttribute('inc')) {
+                    case 'pre': incumbent = ' Ꝑ';break;
+                    case 'vpr': incumbent = ' Ꝟ';break;
+                    case 'sen': incumbent = ' Ꞩ';break;
+                    case 'hor': incumbent = ' Ꞧ';break;
+                    case 'cab': incumbent = ' Ȼ';break;
+                    default: incumbent = '';break;
+                }
+                row += '<td width="25%" style="padding:3px;white-space:nowrap;'+nominee+'">'+tempcandidate.getAttribute('name')+' <abbr title="'+PartyName(prim.getAttribute('party'))+'" style="text-decoration:none;">('+prim.getAttribute('party')+')'+incumbent+'</abbr></td>';
 
                 // Scorebar
                 score = Math.round(1000*tempcandidate.getAttribute('votes') / prim.getAttribute('totalvotes'))/10
@@ -150,7 +167,15 @@ function buildEB(xml,divId) {
 
                 // Name
                 if (tempcandidate.getAttribute('elected') == 'yes') {elected = 'font-weight:bold;';} else {elected = '';}
-                row += '<td width="25%" style="padding:3px;white-space:nowrap;'+elected+'">'+tempcandidate.getAttribute('name')+' <abbr title="'+PartyName(tempcandidate.getAttribute('party'))+'" style="text-decoration:none;">('+tempcandidate.getAttribute('party')+')</abbr></td>';
+                switch (tempcandidate.getAttribute('inc')) {
+                    case 'pre': incumbent = ' Ꝑ';break;
+                    case 'vpr': incumbent = ' Ꝟ';break;
+                    case 'sen': incumbent = ' Ꞩ';break;
+                    case 'hor': incumbent = ' Ꞧ';break;
+                    case 'cab': incumbent = ' Ȼ';break;
+                    default: incumbent = '';break;
+                }
+                row += '<td width="25%" style="padding:3px;white-space:nowrap;'+elected+'">'+tempcandidate.getAttribute('name')+' <abbr title="'+PartyName(tempcandidate.getAttribute('party'))+'" style="text-decoration:none;">('+tempcandidate.getAttribute('party')+')'+incumbent+'</abbr></td>';
 
                 // Scorebar
                 score = Math.round(1000*tempcandidate.getAttribute('votes') / candidate.getAttribute('totalvotes'))/10

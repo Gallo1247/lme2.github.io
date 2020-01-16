@@ -82,7 +82,7 @@
             <candidate name="Suraj" party="R" votes="7" change="New"/>
             <primary party="R" totalvotes="7">
                 <candidate name="Suraj" votes="5" nominee="yes"/>
-                <candidate name="DustinTheNow" votes="2" nominee="yes"/>
+                <candidate name="DustinTheNow" votes="2"/>
             </primary>
         </div>
         <div name="LN" totalvotes="17" totalseats="1">
@@ -151,7 +151,7 @@
         <div name="dx" totalvotes="20" totalseats="4">
             <candidate name="Thomas" party="I" votes="4" change="New" rank="1" elected="yes"/>
             <candidate name="DustinTheNow" party="I" votes="2" change="New" elected="yes"/>
-            <candidate name="QuertyTurdy" party="I" votes="2" change="New" elected="yes"/>
+            <candidate name="QwertyTurdy" party="I" votes="2" change="New" elected="yes"/>
             <candidate name="Mystic Mudsdale" party="R" votes="2" change="New" elected="yes"/>
             <candidate name="Comandante" party="R" votes="1" change="New"/>
             <candidate name="Xibei" party="D" votes="1" change="New"/>
@@ -197,15 +197,15 @@
             <candidate name="Independents" party="I" votes="18" change="+26.9pp" seats="2" seatschange="New"/>
         </div>
         <div name="OV" totalvotes="12" totalseats="1">
-            <candidate name="Majorero Ꞩ" party="MP" votes="7" change="+5.4pp" rank="1" elected="yes"/>
+            <candidate name="Majorero" party="MP" inc="sen" votes="7" change="+5.4pp" rank="1" elected="yes"/>
             <candidate name="KingMarine" party="KMP" votes="5" change="New"/>
         </div>
         <div name="pl" totalvotes="17" totalseats="1">
-            <candidate name="Centauri Ꞩ" party="J" votes="13" change="+22.0pp" rank="1" elected="yes"/>
+            <candidate name="Centauri" party="J" inc="sen" votes="13" change="+22.0pp" rank="1" elected="yes"/>
             <candidate name="Archer" party="D" votes="4" change="-22.2pp"/>
         </div>
         <div name="dx" totalvotes="13" totalseats="1">
-            <candidate name="MS Dhoni Ꞩ" party="I" votes="8" change="-8.5pp" rank="1" elected="yes"/>
+            <candidate name="MS Dhoni" party="I" inc="sen" votes="8" change="-8.5pp" rank="1" elected="yes"/>
         </div>
         <div name="pc" totalvotes="12" totalseats="1">
             <candidate name="Fil" party="I" votes="10" change="New" rank="1" elected="yes"/>
@@ -220,20 +220,20 @@
             <candidate name="Independents" party="I" votes="17" change="+7.0pp" seats="5" seatschange="+1"/>
         </div>
         <div name="ov" totalvotes="12" totalseats="2">
-            <candidate name="Corsair Ꞧ" party="R" votes="6" change="+8.8pp" rank="1" elected="yes"/>
+            <candidate name="Corsair" party="R" inc="hor" votes="6" change="+8.8pp" rank="1" elected="yes"/>
             <candidate name="Magnetar" party="D" votes="6" change="New" elected="yes"/>
             <candidate name="Nibblesnow" party="D" votes="0" change="New"/>
         </div>
         <div name="pl" totalvotes="17" totalseats="5">
             <candidate name="Adam" party="J" votes="6" change="New" rank="1" elected="yes"/>
-            <candidate name="Jhon Pete Ꞧ" party="D" votes="3" change="-27.0pp" elected="yes"/>
+            <candidate name="Jhon Pete" party="D" inc="hor" votes="3" change="-27.0pp" elected="yes"/>
             <candidate name="Bill" party="D" votes="2" change="+2.7pp" elected="r"/>
             <candidate name="Whale" party="I" votes="2" change="New" elected="r"/>
             <candidate name="ADrewster" party="I" votes="2" change="New" elected="r"/>
             <candidate name="Hippity" party="F" votes="2" change="+7.3pp" elected="r"/>
             <primary party="D" totalvotes="9">
                 <candidate name="Bill" votes="5" nominee="yes"/>
-                <candidate name="Jhon Pete Ꞧ" votes="4" nominee="yes"/>
+                <candidate name="Jhon Pete" votes="4" inc="hor" nominee="yes"/>
             </primary>
             <runoff totalvotes="18">
                 <candidate name="Whale" party="I" votes="8" elected="yes"/>
@@ -242,10 +242,10 @@
             </runoff>
         </div>
         <div name="dx" totalvotes="13" totalseats="4">
-            <candidate name="DustinTheNow Ꞧ" party="I" votes="5" change="+28.5pp" elected="yes"/>
+            <candidate name="DustinTheNow" party="I" inc="hor" votes="5" change="+28.5pp" elected="yes"/>
             <candidate name="Xibei" party="D" votes="2" change="+10.4pp" elected="yes"/>
-            <candidate name="Thomas Ꞧ" party="I" votes="2" change="-4.6pp" elected="yes"/>
-            <candidate name="Mystic Mudsdale Ꞧ" party="R" votes="2" change="+5.4pp" elected="yes"/>
+            <candidate name="Thomas" party="I" votes="2" inc="hor" change="-4.6pp" elected="yes"/>
+            <candidate name="Mystic Mudsdale" party="R" inc="hor" votes="2" change="+5.4pp" elected="yes"/>
             <candidate name="Suraj" party="R" votes="1" change="New"/>
             <candidate name="LapisLuna" party="Other" votes="1" change="New"/>
             <primary party="R" totalvotes="6">
@@ -266,12 +266,12 @@
         </div>
         <div name="pc" totalvotes="12" totalseats="3">
             <candidate name="TexasInd4Ever" party="D" votes="3" change="New" rank="1" elected="r"/>
-            <candidate name="Obama Ꞧ" party="I" votes="3" change="-8.3pp" elected="r"/>
-            <candidate name="Hubble Ꞧ" party="R" votes="3" change="+8.3pp" elected="r"/>
+            <candidate name="Obama" party="I" inc="hor" votes="3" change="-8.3pp" elected="r"/>
+            <candidate name="Hubble" party="R" inc="hor" votes="3" change="+8.3pp" elected="r"/>
             <candidate name="Guy" party="I" votes="3" change="+13.9pp" elected="r"/>
             <runoff totalvotes="13">
-                <candidate name="Obama Ꞧ" party="I" votes="6" elected="yes"/>
-                <candidate name="Hubble Ꞧ" party="R" votes="4" elected="yes"/>
+                <candidate name="Obama" party="I" inc="hor" votes="6" elected="yes"/>
+                <candidate name="Hubble" party="R" inc="hor" votes="4" elected="yes"/>
                 <candidate name="Guy" party="I" votes="2" elected="yes"/>
                 <candidate name="TexasInd4Ever" party="D" votes="1"/>
             </runoff>
