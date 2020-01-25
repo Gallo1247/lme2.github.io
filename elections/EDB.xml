@@ -277,4 +277,19 @@
             </runoff>
         </div>
     </election>
+    <election id="PreFeb20" name="February 2020 LME Presidential election">
+        <div name="us">
+            <candidate name="Toucan" party="D" inc="sen"/>
+            <candidate name="Adam" party="I" inc="hor"/>
+        </div>
+    </election>
+    <election id="VprFeb20" name="February 2020 LME Vice-presidential election">
+        <div name="us">
+            <candidate name="Corsair" party="R" inc="hor"/>
+            <candidate name="Centauri" party="D" inc="sen"/>
+            <candidate name="Illegalpig" party="D" inc="cab"/>
+            <candidate name="Trees Warmer" party="I" inc="sen"/>
+            <candidate name="Fil" party="I" inc="sen"/>
+        </div>
+    </election>
 </electionslist>

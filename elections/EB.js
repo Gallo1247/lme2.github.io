@@ -68,42 +68,53 @@ function buildEB(xml,divId) {
             // Scorebar
             score = Math.round(1000*candidate.getAttribute('votes') / reg.getAttribute('totalvotes'))/10
 
-            if (election.getAttribute('parties') == 'no' || reg.getAttribute('name') != 'us') {row += '<td width="100%" style="background-image:';} else {row += '<td width="50%" style="background-image:';}
-            if (candidate.getAttribute('rank') == 1) {
-                if (score < 49.75) {
-                    row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%,#F0F0F0 49.75%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
-                } else if (score > 50.25) {
-                    row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' 49.75%,black 49.75%,black 50.25%,'+PartyColor(candidate.getAttribute('party'))+' 50.25%,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
-                } else {
-                    row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' 49.75%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
-                }
-            } else {
-                row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
-            }
-            row += ';text-align:right;font-size:150%;'+elected+'">';
-            row += '<abbr style="text-decoration:none;" title="'+candidate.getAttribute('votes')+' votes"><ruby>'+score+'%<rt>'+candidate.getAttribute('change')+'</rt></ruby></abbr></td>';
-
-            score = Math.round(1000*candidate.getAttribute('seats') / reg.getAttribute('totalseats'))/10
-
-            if (election.getAttribute('parties') == 'yes' && reg.getAttribute('name') == 'us') { // Number of seats
-                row += '<td width="25%" style="background-image:';
+            if (election.getAttribute('parties') == 'no' || reg.getAttribute('name') != 'us') {row += '<td width="100%" style="';} else {row += '<td width="50%" style="';}
+            
+            if (candidate.getAttribute('votes') == null) {row += 'background-color:'+PartyColor(candidate.getAttribute('party'));} else {
+                row += 'background-image:'
                 if (candidate.getAttribute('rank') == 1) {
                     if (score < 49.75) {
-                        row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%,#F0F0F0 49.25%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
+                        row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%,#F0F0F0 49.75%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
                     } else if (score > 50.25) {
                         row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' 49.75%,black 49.75%,black 50.25%,'+PartyColor(candidate.getAttribute('party'))+' 50.25%,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
                     } else {
                         row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' 49.75%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
                     }
                 } else {
-                    row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
+                    row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)'
+                }
+            }
+            
+            row += ';text-align:right;font-size:150%;'+elected+'">';
+            if (candidate.getAttribute('votes')) {
+                row += '<abbr style="text-decoration:none;" title="'+candidate.getAttribute('votes')+' votes"><ruby>'+score+'%<rt>'+candidate.getAttribute('change')+'</rt></ruby></abbr></td>';
+            }
+
+            score = Math.round(1000*candidate.getAttribute('seats') / reg.getAttribute('totalseats'))/10
+
+            if (election.getAttribute('parties') == 'yes' && reg.getAttribute('name') == 'us') { // Number of seats
+                row += '<td width="25%" style="';
+                
+                if (candidate.getAttribute('votes') == null) {row += 'background-color:'+PartyColor(candidate.getAttribute('party'));} else {
+                    row += 'background-image:';
+                    if (candidate.getAttribute('rank') == 1) {
+                        if (score < 49.75) {
+                            row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%,#F0F0F0 49.25%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
+                        } else if (score > 50.25) {
+                            row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' 49.75%,black 49.75%,black 50.25%,'+PartyColor(candidate.getAttribute('party'))+' 50.25%,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
+                        } else {
+                            row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' 49.75%,black 49.75%,black 50.25%,#F0F0F0 50.25%)';
+                        }
+                    } else {
+                        row += 'linear-gradient(90deg,'+PartyColor(candidate.getAttribute('party'))+' '+score+'%,#F0F0F0 '+score+'%)';
+                    }
                 }
                 row += ';text-align:right;font-size:150%;'+elected+'">';
                 row += '<ruby>'+candidate.getAttribute('seats')+' seat';
                 if (candidate.getAttribute('seats') != 1) {row += 's'}
                 row += '<rt>'+candidate.getAttribute('change')+'</rt></ruby></td>';
-                row += '</tr>'
             }
+            row += '</tr>'
         } else if (candidate.tagName == 'primary') {
             prim = candidate;
             row += '<tr><td colspan="3" style="text-align:center;" onclick="toggler(this.parentNode.parentNode.nextSibling);">';
