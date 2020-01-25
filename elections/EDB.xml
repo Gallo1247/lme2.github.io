@@ -142,7 +142,7 @@
             <candidate name="Dino" party="R" votes="3" change="New" elected="yes"/>
             <candidate name="Bill" party="D" votes="2" change="New" elected="r"/>
             <candidate name="Catman" party="R" votes="2" change="New" elected="r"/>
-            <candidate name="Spiro" party="R" votes="1" change="New"/>
+            <candidate name="Spiro Agnew" party="R" votes="1" change="New"/>
             <runoff totalvotes="22">
                 <candidate name="Bill" party="D" votes="13" elected="yes"/>
                 <candidate name="Catman" party="R" votes="10"/>
@@ -230,7 +230,7 @@
             <candidate name="Bill" party="D" votes="2" change="+2.7pp" elected="r"/>
             <candidate name="Whale" party="I" votes="2" change="New" elected="r"/>
             <candidate name="ADrewster" party="I" votes="2" change="New" elected="r"/>
-            <candidate name="Spiro" party="F" votes="2" change="+7.3pp" elected="r"/>
+            <candidate name="Spiro Agnew" party="F" votes="2" change="+7.3pp" elected="r"/>
             <primary party="D" totalvotes="9">
                 <candidate name="Bill" votes="5" nominee="yes"/>
                 <candidate name="Jhon Pete" votes="4" inc="hor" nominee="yes"/>
@@ -238,7 +238,7 @@
             <runoff totalvotes="18">
                 <candidate name="Whale" party="I" votes="8" elected="yes"/>
                 <candidate name="Bill" party="D" votes="6" elected="yes"/>
-                <candidate name="Spiro" party="F" votes="4"/>
+                <candidate name="Spiro Agnew" party="F" votes="4"/>
             </runoff>
         </div>
         <div name="dx" totalvotes="13" totalseats="4">
@@ -247,7 +247,7 @@
             <candidate name="Thomas" party="I" votes="2" inc="hor" change="-4.6pp" elected="yes"/>
             <candidate name="Mystic Mudsdale" party="R" inc="hor" votes="2" change="+5.4pp" elected="yes"/>
             <candidate name="Suraj" party="R" votes="1" change="New"/>
-            <candidate name="LapisLuna" party="Other" votes="1" change="New"/>
+            <candidate name="LapisLuna" party="Oth" label="Vote for me" votes="1" change="New"/>
             <primary party="R" totalvotes="6">
                 <candidate name="Suraj" votes="5" nominee="yes"/>
                 <candidate name="Mystic Mudsdale" votes="1" nominee="yes"/>
@@ -277,10 +277,12 @@
             </runoff>
         </div>
     </election>
+    
+    <!-- February 2020 -->
     <election id="PreFeb20" name="February 2020 LME Presidential election">
         <div name="us">
             <candidate name="Toucan" party="D" inc="sen"/>
-            <candidate name="Adam" party="I" inc="hor"/>
+            <candidate name="Majorero" party="MP" inc="sen"/>
         </div>
     </election>
     <election id="VprFeb20" name="February 2020 LME Vice-presidential election">
@@ -290,6 +292,51 @@
             <candidate name="Illegalpig" party="D" inc="cab"/>
             <candidate name="Trees Warmer" party="I" inc="sen"/>
             <candidate name="Fil" party="I" inc="sen"/>
+        </div>
+    </election>
+    <election id="SenFeb20" name="February 2020 LME Senate elections" parties="yes">
+        <div name="us">
+            <!--<candidate name="Democratic Party" party="D" seats="0"/>-->
+        </div>
+        <div name="ov">
+        </div>
+        <div name="dx">
+            <candidate name="Charlie Routh" party="I"/>
+        </div>
+        <div name="ln">
+            <candidate name="Henry IX" party="Oth" label="Mideastern Party"/>
+            <candidate name="Bxuzabc" party="I"/>
+            <candidate name="Rox" party="MWP" inc="hor"/>
+        </div>
+    </election>
+    <election id="HorFeb20" name="February 2020 LME House elections" parties="yes">
+        <div name="us">
+            <!--<candidate name="Democratic Party" party="D" seats="0"/>-->
+        </div>
+        <div name="ov">
+            <candidate name="Alligator" party="D"/>
+        </div>
+        <div name="pl">
+            <candidate name="Adam" party="Oth" label="Win great prizes" inc="hor"/>
+            <candidate name="Bill" party="D" inc="hor"/>
+            <candidate name="Jhon Pete" party="D" inc="hor"/>
+            <candidate name="Michael" party="R" inc="cab"/>
+            <candidate name="Archer" party="D"/>
+            <candidate name="Cheese" party="D"/>
+            <candidate name="Spiro Agnew" party="Oth" label="Bulgaria Party"/>
+        </div>
+        <div name="dx">
+            <candidate name="DustinTheNow" party="I" inc="hor"/>
+            <candidate name="Xibei" party="D" inc="hor"/>
+            <candidate name="Thomas" party="Oth" label="Marianne Williamson" inc="hor"/>
+        </div>
+        <div name="ln">
+            <candidate name="Rox" party="MWP" inc="hor"/>
+            <candidate name="OP" party="MWP"/>
+            <candidate name="Nathan" party="J"/>
+        </div>
+        <div name="pc">
+            <candidate name="TexasInd4ever" party="D"/>
         </div>
     </election>
 </electionslist>

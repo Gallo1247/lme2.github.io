@@ -42,7 +42,7 @@ function buildEB(xml,divId) {
         // DIRECT CANDIDATE
         if (candidate.tagName == 'candidate') {
             // Image (not if party)
-            if (election.getAttribute('parties') == 'no' || reg.getAttribute('name') != 'us') {
+            if (election.getAttribute('parties') != 'yes' || reg.getAttribute('name') != 'us') {
                 row += '<tr><td width="auto">';
                 row += '<img width="37.2px" src="../images/'+candidate.getAttribute('name')+'.png" style="display:block;">'
                 row += '</td>'
@@ -62,13 +62,13 @@ function buildEB(xml,divId) {
             if (election.getAttribute('parties') == 'yes' && reg.getAttribute('name') == 'us') {
                 row += '<td width="10%" style="padding:3px;font-size:175%;white-space:nowrap;'+elected+'">'+'<abbr title="'+candidate.getAttribute('name')+'" style="text-decoration:none;">'+candidate.getAttribute('party')+'</abbr></td>';
             } else {
-                row += '<td width="25%" style="padding:3px;font-size:125%;white-space:nowrap;'+elected+'">'+candidate.getAttribute('name')+' <abbr title="'+PartyName(candidate.getAttribute('party'))+'" style="text-decoration:none;">('+candidate.getAttribute('party')+')'+incumbent+'</abbr></td>';
+                row += '<td width="25%" style="padding:3px;font-size:125%;white-space:nowrap;'+elected+'">'+candidate.getAttribute('name')+' <abbr title="'+PartyName(candidate.getAttribute('party'),candidate.getAttribute('label'))+'" style="text-decoration:none;">('+candidate.getAttribute('party')+')'+incumbent+'</abbr></td>';
             }
 
             // Scorebar
             score = Math.round(1000*candidate.getAttribute('votes') / reg.getAttribute('totalvotes'))/10
 
-            if (election.getAttribute('parties') == 'no' || reg.getAttribute('name') != 'us') {row += '<td width="100%" style="';} else {row += '<td width="50%" style="';}
+            if (election.getAttribute('parties') != 'yes' || reg.getAttribute('name') != 'us') {row += '<td width="100%" style="';} else {row += '<td width="50%" style="';}
             
             if (candidate.getAttribute('votes') == null) {row += 'background-color:'+PartyColor(candidate.getAttribute('party'));} else {
                 row += 'background-image:'
@@ -118,7 +118,7 @@ function buildEB(xml,divId) {
         } else if (candidate.tagName == 'primary') {
             prim = candidate;
             row += '<tr><td colspan="3" style="text-align:center;" onclick="toggler(this.parentNode.parentNode.nextSibling);">';
-            row += PartyName(candidate.getAttribute('party'))+' primaries ▼';
+            row += PartyName(candidate.getAttribute('party'),candidate.getAttribute('label'))+' primaries ▼';
             row += '</td></tr>';
             row += '<tbody class="prim-collapsible">'
             
@@ -144,7 +144,7 @@ function buildEB(xml,divId) {
                     case 'cab': incumbent = ' Ȼ';break;
                     default: incumbent = '';break;
                 }
-                row += '<td width="25%" style="padding:3px;white-space:nowrap;'+nominee+'">'+tempcandidate.getAttribute('name')+' <abbr title="'+PartyName(prim.getAttribute('party'))+'" style="text-decoration:none;">('+prim.getAttribute('party')+')'+incumbent+'</abbr></td>';
+                row += '<td width="25%" style="padding:3px;white-space:nowrap;'+nominee+'">'+tempcandidate.getAttribute('name')+' <abbr title="'+PartyName(candidate.getAttribute('party'),candidate.getAttribute('label'))+'" style="text-decoration:none;">('+prim.getAttribute('party')+')'+incumbent+'</abbr></td>';
 
                 // Scorebar
                 score = Math.round(1000*tempcandidate.getAttribute('votes') / prim.getAttribute('totalvotes'))/10
@@ -186,7 +186,7 @@ function buildEB(xml,divId) {
                     case 'cab': incumbent = ' Ȼ';break;
                     default: incumbent = '';break;
                 }
-                row += '<td width="25%" style="padding:3px;white-space:nowrap;'+elected+'">'+tempcandidate.getAttribute('name')+' <abbr title="'+PartyName(tempcandidate.getAttribute('party'))+'" style="text-decoration:none;">('+tempcandidate.getAttribute('party')+')'+incumbent+'</abbr></td>';
+                row += '<td width="25%" style="padding:3px;white-space:nowrap;'+elected+'">'+tempcandidate.getAttribute('name')+' <abbr title="'+PartyName(candidate.getAttribute('party'),candidate.getAttribute('label'))+'" style="text-decoration:none;">('+tempcandidate.getAttribute('party')+')'+incumbent+'</abbr></td>';
 
                 // Scorebar
                 score = Math.round(1000*tempcandidate.getAttribute('votes') / candidate.getAttribute('totalvotes'))/10
@@ -216,7 +216,7 @@ function toggler(item) {
     }
 }
 
-function PartyName(abbr) {
+function PartyName(abbr,label) {
     switch(abbr) {
         case 'D': return('Democratic Party');
         case 'R': return('Republican Party');
@@ -228,6 +228,7 @@ function PartyName(abbr) {
         case 'DNV': return('DNV');
         case 'G': return('Green Party');
         case 'I': return('Independent');
+        case 'Oth': return(label);
         default: return('No Party Preference');
     }
 }
