@@ -28,6 +28,14 @@ function buildEB(xml,divId) {
     if (reg.getAttribute('name') == 'us') {
         table += '<tr><td colspan="3"><img width="100%" src="../maps/'+divId.substring(0,8)+'.svg"></td></tr>'; // Map
     }
+    console.log(reg)
+    if (reg.getAttribute('inc')) {
+        table += '<tr><td colspan="3" style="text-align:center;">Incumbent';
+        if (reg.getAttribute('inc').split(',').length > 1) {
+            table += 's'
+        }
+        table += ': '+reg.getAttribute('inc')+'</td></tr>';
+    }
     
     
     

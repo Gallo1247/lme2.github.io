@@ -196,18 +196,18 @@
             <candidate name="Republican Party" party="R" votes="0" change="-35.1pp" seats="1" seatschange="-3"/>
             <candidate name="Independents" party="I" votes="18" change="+26.9pp" seats="2" seatschange="New"/>
         </div>
-        <div name="OV" totalvotes="12" totalseats="1">
+        <div name="OV" inc="Majorero (MP)" totalvotes="12" totalseats="1">
             <candidate name="Majorero" party="MP" inc="sen" votes="7" change="+5.4pp" rank="1" elected="yes"/>
             <candidate name="KingMarine" party="KMP" votes="5" change="New"/>
         </div>
-        <div name="pl" totalvotes="17" totalseats="1">
+        <div name="pl" inc="Centauri (I)" totalvotes="17" totalseats="1">
             <candidate name="Centauri" party="J" inc="sen" votes="13" change="+22.0pp" rank="1" elected="yes"/>
             <candidate name="Archer" party="D" votes="4" change="-22.2pp"/>
         </div>
-        <div name="dx" totalvotes="13" totalseats="1">
+        <div name="dx" inc="MS Dhoni (D)" totalvotes="13" totalseats="1">
             <candidate name="MS Dhoni" party="I" inc="sen" votes="8" change="-8.5pp" rank="1" elected="yes"/>
         </div>
-        <div name="pc" totalvotes="12" totalseats="1">
+        <div name="pc" inc="Dennisman (D)" totalvotes="12" totalseats="1">
             <candidate name="Fil" party="I" votes="10" change="New" rank="1" elected="yes"/>
         </div>
     </election>
@@ -219,12 +219,12 @@
             <candidate name="Federalist Party" party="F" votes="2" change="New" seats="0" seatschange="New"/>
             <candidate name="Independents" party="I" votes="17" change="+7.0pp" seats="5" seatschange="+1"/>
         </div>
-        <div name="ov" totalvotes="12" totalseats="2">
+        <div name="ov" inc="Corsair (R), Osito Marcus (D)" totalvotes="12" totalseats="2">
             <candidate name="Corsair" party="R" inc="hor" votes="6" change="+8.8pp" rank="1" elected="yes"/>
             <candidate name="Magnetar" party="D" votes="6" change="New" elected="yes"/>
             <candidate name="Nibblesnow" party="D" votes="0" change="New"/>
         </div>
-        <div name="pl" totalvotes="17" totalseats="5">
+        <div name="pl" inc="Jhon Pete (D), Spruce (D), Dino (R), Bill (D)" totalvotes="17" totalseats="5">
             <candidate name="Adam" party="J" votes="6" change="New" rank="1" elected="yes"/>
             <candidate name="Jhon Pete" party="D" inc="hor" votes="3" change="-27.0pp" elected="yes"/>
             <candidate name="Bill" party="D" votes="2" change="+2.7pp" elected="r"/>
@@ -241,7 +241,7 @@
                 <candidate name="Spiro Agnew" party="F" votes="4"/>
             </runoff>
         </div>
-        <div name="dx" totalvotes="13" totalseats="4">
+        <div name="dx" inc="Thomas (I), DustinTheNow (I), QwertyTurdy (I), Mystic Mudsdale (R)" totalvotes="13" totalseats="4">
             <candidate name="DustinTheNow" party="I" inc="hor" votes="5" change="+28.5pp" elected="yes"/>
             <candidate name="Xibei" party="D" votes="2" change="+10.4pp" elected="yes"/>
             <candidate name="Thomas" party="I" votes="2" inc="hor" change="-4.6pp" elected="yes"/>
@@ -253,7 +253,7 @@
                 <candidate name="Mystic Mudsdale" votes="1" nominee="yes"/>
             </primary>
         </div>
-        <div name="ln" totalvotes="14" totalseats="2">
+        <div name="ln" inc="Pence (D), Bxuzabc (MWP)" totalvotes="14" totalseats="2">
             <candidate name="Rox" party="R" votes="5" change="+23.9pp" rank="1" elected="yes"/>
             <candidate name="Pence" party="D" votes="4" change="New" elected="r"/>
             <candidate name="Henry IX" party="R" votes="4" change="New" elected="r"/>
@@ -264,7 +264,7 @@
                 <candidate name="Henry IX" party="R" votes="4"/>
             </runoff>
         </div>
-        <div name="pc" totalvotes="12" totalseats="3">
+        <div name="pc" inc="Obama (I), Spicy (D), Hubble (R)" totalvotes="12" totalseats="3">
             <candidate name="TexasInd4Ever" party="D" votes="3" change="New" rank="1" elected="r"/>
             <candidate name="Obama" party="I" inc="hor" votes="3" change="-8.3pp" elected="r"/>
             <candidate name="Hubble" party="R" inc="hor" votes="3" change="+8.3pp" elected="r"/>
@@ -298,12 +298,12 @@
         <div name="us">
             <!--<candidate name="Democratic Party" party="D" seats="0"/>-->
         </div>
-        <div name="ov">
+        <div name="ov" inc="Estagal (MP)">
         </div>
-        <div name="dx">
+        <div name="dx" inc="Trees Warmer (I)">
             <candidate name="Charlie Routh" party="I"/>
         </div>
-        <div name="ln">
+        <div name="ln" inc="Toucan (MP)">
             <candidate name="Henry IX" party="Oth" label="Mideastern Party"/>
             <candidate name="Bxuzabc" party="I"/>
             <candidate name="Rox" party="MWP" inc="hor"/>
@@ -313,10 +313,10 @@
         <div name="us">
             <!--<candidate name="Democratic Party" party="D" seats="0"/>-->
         </div>
-        <div name="ov">
+        <div name="ov" inc="Corsair (R), Magnetar (D)">
             <candidate name="Alligator" party="D"/>
         </div>
-        <div name="pl">
+        <div name="pl" inc="Adam (J), Jhon Pete (D), Whale (I), Bill (D)">
             <candidate name="Adam" party="Oth" label="Win great prizes" inc="hor"/>
             <candidate name="Bill" party="D" inc="hor"/>
             <candidate name="Jhon Pete" party="D" inc="hor"/>
@@ -325,17 +325,17 @@
             <candidate name="Cheese" party="D"/>
             <candidate name="Spiro Agnew" party="Oth" label="Bulgaria Party"/>
         </div>
-        <div name="dx">
+        <div name="dx" inc="DustinTheNow (I), Xibei (D), Thomas (I), Mystic Mudsdale (R)">
             <candidate name="DustinTheNow" party="I" inc="hor"/>
             <candidate name="Xibei" party="D" inc="hor"/>
             <candidate name="Thomas" party="Oth" label="Marianne Williamson" inc="hor"/>
         </div>
-        <div name="ln">
+        <div name="ln" inc="Rox (R), Pence (D)">
             <candidate name="Rox" party="MWP" inc="hor"/>
             <candidate name="OP" party="MWP"/>
             <candidate name="Nathan" party="J"/>
         </div>
-        <div name="pc">
+        <div name="pc" inc="Obama (I), Hubble (R), Guy (I)">
             <candidate name="TexasInd4ever" party="D"/>
         </div>
     </election>
