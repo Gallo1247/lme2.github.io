@@ -152,7 +152,7 @@
             <candidate name="Thomas" party="I" votes="4" change="New" rank="1" elected="yes"/>
             <candidate name="DustinTheNow" party="I" votes="2" change="New" elected="yes"/>
             <candidate name="QwertyTurdy" party="I" votes="2" change="New" elected="yes"/>
-            <candidate name="Mystic Mudsdale" party="R" votes="2" change="New" elected="yes"/>
+            <candidate name="Mystic Mudsin" party="R" votes="2" change="New" elected="yes"/>
             <candidate name="Comandante" party="R" votes="1" change="New"/>
             <candidate name="Xibei" party="D" votes="1" change="New"/>
             <candidate name="Cello" party="I" votes="1" change="New"/>
@@ -164,7 +164,7 @@
             <primary party="R" totalvotes="7">
                 <candidate name="Joseph Sisto" votes="4" nominee="yes"/>
                 <candidate name="Comandante" votes="3" nominee="yes"/>
-                <candidate name="Mystic Mudsdale" votes="2" nominee="yes"/>
+                <candidate name="Mystic Mudsin" votes="2" nominee="yes"/>
                 <candidate name="MaxHat" votes="1"/>
             </primary>
         </div>
@@ -241,16 +241,16 @@
                 <candidate name="Spiro Agnew" party="F" votes="4"/>
             </runoff>
         </div>
-        <div name="dx" inc="Thomas (I), DustinTheNow (I), QwertyTurdy (I), Mystic Mudsdale (R)" totalvotes="13" totalseats="4">
+        <div name="dx" inc="Thomas (I), DustinTheNow (I), QwertyTurdy (I), Mystic Mudsin (R)" totalvotes="13" totalseats="4">
             <candidate name="DustinTheNow" party="I" inc="hor" votes="5" change="+28.5pp" elected="yes"/>
             <candidate name="Xibei" party="D" votes="2" change="+10.4pp" elected="yes"/>
             <candidate name="Thomas" party="I" votes="2" inc="hor" change="-4.6pp" elected="yes"/>
-            <candidate name="Mystic Mudsdale" party="R" inc="hor" votes="2" change="+5.4pp" elected="yes"/>
+            <candidate name="Mystic Mudsin" party="R" inc="hor" votes="2" change="+5.4pp" elected="yes"/>
             <candidate name="Suraj" party="R" votes="1" change="New"/>
             <candidate name="LapisLuna" party="Oth" label="Vote for me" votes="1" change="New"/>
             <primary party="R" totalvotes="6">
                 <candidate name="Suraj" votes="5" nominee="yes"/>
-                <candidate name="Mystic Mudsdale" votes="1" nominee="yes"/>
+                <candidate name="Mystic Mudsin" votes="1" nominee="yes"/>
             </primary>
         </div>
         <div name="ln" inc="Pence (D), Bxuzabc (MWP)" totalvotes="14" totalseats="2">
@@ -282,16 +282,17 @@
     <election id="PreFeb20" name="February 2020 LME Presidential election">
         <div name="us">
             <candidate name="Toucan" party="D" inc="sen"/>
+            <candidate name="Jhon Pete" party="D" inc="hor"/>
+            <candidate name="Redgentleman443" party="R"/>
+            <candidate name="Gunam" party="R"/>
             <candidate name="Majorero" party="MP" inc="sen"/>
+            <candidate name="Josh" party="I"/>
         </div>
     </election>
     <election id="VprFeb20" name="February 2020 LME Vice-presidential election">
         <div name="us">
             <candidate name="Corsair" party="R" inc="hor"/>
-            <candidate name="Centauri" party="D" inc="sen"/>
-            <candidate name="Illegalpig" party="D" inc="cab"/>
             <candidate name="Trees Warmer" party="I" inc="sen"/>
-            <candidate name="Fil" party="I" inc="sen"/>
         </div>
     </election>
     <election id="SenFeb20" name="February 2020 LME Senate elections" parties="yes">
@@ -299,12 +300,15 @@
             <!--<candidate name="Democratic Party" party="D" seats="0"/>-->
         </div>
         <div name="ov" inc="Estagal (MP)">
+            <candidate name="Estagal" party="R"/>
+            <candidate name="Nibblesnow" party="D"/>
+            <candidate name="Magnetar" party="I"/>
         </div>
         <div name="dx" inc="Trees Warmer (I)">
             <candidate name="Charlie Routh" party="I"/>
         </div>
         <div name="ln" inc="Toucan (MP)">
-            <candidate name="Henry IX" party="Oth" label="Mideastern Party"/>
+            <candidate name="Henry IX" party="Oth" label="Vote for me if you don't care Party"/>
             <candidate name="Bxuzabc" party="I"/>
             <candidate name="Rox" party="MWP" inc="hor"/>
         </div>
@@ -315,28 +319,39 @@
         </div>
         <div name="ov" inc="Corsair (R), Magnetar (D)">
             <candidate name="Alligator" party="D"/>
+            <candidate name="Osito" party="D" inc="hor"/>
+            <candidate name="Noot Noot" party="D"/>
+            <candidate name="Thread" party="R"/>
+            <candidate name="Alea" party="Oth" label="Marxist Leninist"/>
         </div>
         <div name="pl" inc="Adam (J), Jhon Pete (D), Whale (I), Bill (D)">
             <candidate name="Adam" party="Oth" label="Win great prizes" inc="hor"/>
             <candidate name="Bill" party="D" inc="hor"/>
             <candidate name="Jhon Pete" party="D" inc="hor"/>
-            <candidate name="Michael" party="R" inc="cab"/>
             <candidate name="Archer" party="D"/>
             <candidate name="Cheese" party="D"/>
-            <candidate name="Spiro Agnew" party="Oth" label="Bulgaria Party"/>
+            <candidate name="Whale" party="I" inc="hor"/>
+            <candidate name="Michael" party="R" inc="cab"/>
+            <candidate name="Spiro Agnew" party="Oth" label="Nixon Party"/>
+            <candidate name="Gunam" party="Oth" label="Win great prizes"/>
         </div>
-        <div name="dx" inc="DustinTheNow (I), Xibei (D), Thomas (I), Mystic Mudsdale (R)">
+        <div name="dx" inc="DustinTheNow (I), Xibei (D), Thomas (I), Mystic Mudsin (R)">
             <candidate name="DustinTheNow" party="I" inc="hor"/>
             <candidate name="Xibei" party="D" inc="hor"/>
+            <candidate name="Dane" party="D"/>
+            <candidate name="Mystic Mudsin" party="R" inc="hor"/>
             <candidate name="Thomas" party="Oth" label="Marianne Williamson" inc="hor"/>
         </div>
         <div name="ln" inc="Rox (R), Pence (D)">
-            <candidate name="Rox" party="MWP" inc="hor"/>
             <candidate name="OP" party="MWP"/>
             <candidate name="Nathan" party="J"/>
+            <candidate name="Raccoon Man" party="D" inc="hor"/>
         </div>
         <div name="pc" inc="Obama (I), Hubble (R), Guy (I)">
-            <candidate name="TexasInd4ever" party="D"/>
+            <candidate name="TexasInd4ever" party="R"/>
+            <candidate name="BlowMinds" party="D"/>
+            <candidate name="Obama" party="I" inc="hor"/>
+            <candidate name="Guy" party="I" inc="hor"/>
         </div>
     </election>
 </electionslist>
