@@ -286,11 +286,11 @@
             <candidate name="Majorero" party="MP" inc="sen" change="New" votes="6"/>
             <candidate name="Redgentleman443" party="I" change="New" votes="3"/>
             <primary party="D" totalvotes="31">
-                <candidate name="Jhon Pete" inc="hor" votes="20"/>
+                <candidate name="Jhon Pete" inc="hor" votes="20" nominee="yes"/>
                 <candidate name="Toucan" inc="sen" votes="11"/>
             </primary>
             <primary party="R" totalvotes="15">
-                <candidate name="Gunam" votes="8"/>
+                <candidate name="Gunam" votes="8" nominee="yes"/>
                 <candidate name="RedGentleman" votes="7"/>
             </primary>
         </div>
@@ -300,11 +300,11 @@
             <candidate name="Majorero" party="MP" inc="sen" change="New" votes="3"/>
             <candidate name="Redgentleman443" party="I" change="New" votes="0"/>
             <primary party="D" totalvotes="5">
-                <candidate name="Jhon Pete" inc="hor" votes="3"/>
+                <candidate name="Jhon Pete" inc="hor" votes="3" nominee="yes"/>
                 <candidate name="Toucan" inc="sen" votes="2"/>
             </primary>
             <primary party="R" totalvotes="4">
-                <candidate name="Gunam" votes="2"/>
+                <candidate name="Gunam" votes="2" nominee="yes"/>
                 <candidate name="RedGentleman" votes="2"/>
             </primary>
             
@@ -315,11 +315,11 @@
             <candidate name="Redgentleman443" party="I" change="New" votes="1"/>
             <candidate name="Majorero" party="MP" inc="sen" change="New" votes="0"/>
             <primary party="D" totalvotes="11">
-                <candidate name="Jhon Pete" inc="hor" votes="7"/>
+                <candidate name="Jhon Pete" inc="hor" votes="7" nominee="yes"/>
                 <candidate name="Toucan" inc="sen" votes="4"/>
             </primary>
             <primary party="R" totalvotes="6">
-                <candidate name="Gunam" votes="3"/>
+                <candidate name="Gunam" votes="3" nominee="yes"/>
                 <candidate name="RedGentleman" votes="3"/>
             </primary>
         </div>
@@ -329,12 +329,12 @@
             <candidate name="Redgentleman443" party="I" change="New" votes="2"/>
             <candidate name="Majorero" party="MP" inc="sen" change="New" votes="1"/>
             <primary party="D" totalvotes="4">
-                <candidate name="Jhon Pete" inc="hor" votes="3"/>
+                <candidate name="Jhon Pete" inc="hor" votes="3" nominee="yes"/>
                 <candidate name="Toucan" inc="sen" votes="1"/>
             </primary>
             <primary party="R" totalvotes="5">
                 <candidate name="RedGentleman" votes="3"/>
-                <candidate name="Gunam" votes="2"/>
+                <candidate name="Gunam" votes="2" nominee="yes"/>
             </primary>
         </div>
         <div name="ln" totalvotes="12">
@@ -343,11 +343,11 @@
             <candidate name="Majorero" party="MP" inc="sen" change="New" votes="2"/>
             <candidate name="Redgentleman443" party="I" change="New" votes="0"/>
             <primary party="D" totalvotes="8">
-                <candidate name="Jhon Pete" inc="hor" votes="5"/>
+                <candidate name="Jhon Pete" inc="hor" votes="5" nominee="yes"/>
                 <candidate name="Toucan" inc="sen" votes="3"/>
             </primary>
             <primary party="R" totalvotes="3">
-                <candidate name="Gunam" votes="2"/>
+                <candidate name="Gunam" votes="2" nominee="yes"/>
                 <candidate name="RedGentleman" votes="1"/>
             </primary>
         </div>
@@ -357,11 +357,11 @@
             <candidate name="Majorero" party="MP" inc="sen" change="New" votes="0"/>
             <candidate name="Redgentleman443" party="I" change="New" votes="0"/>
             <primary party="D" totalvotes="3">
-                <candidate name="Jhon Pete" inc="hor" votes="2"/>
+                <candidate name="Jhon Pete" inc="hor" votes="2" nominee="yes"/>
                 <candidate name="Toucan" inc="sen" votes="1"/>
             </primary>
             <primary party="R" totalvotes="1">
-                <candidate name="Gunam" votes="1"/>
+                <candidate name="Gunam" votes="1" nominee="yes"/>
                 <candidate name="RedGentleman" votes="0"/>
             </primary>
         </div>
