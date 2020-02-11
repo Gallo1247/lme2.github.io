@@ -393,8 +393,11 @@
         </div>
     </election>
     <election id="SenFeb20" name="February 2020 LME Senate elections" parties="yes">
-        <div name="us">
-            <!--<candidate name="Democratic Party" party="D" seats="0"/>-->
+        <div name="us" totalvotes="44" totalseats="10">
+            <candidate name="Democratic Party" party="D" votes="17" change="New" seats="4" seatschange="New"/>
+            <candidate name="Republican Party" party="R" votes="7" change="New" seats="1" seatschange="New"/>
+            <candidate name="Majorero Party" party="MP" votes="0" change="New" seats="4" seatschange="New"/>
+            <candidate name="Independents" party="I" votes="14" change="New" seats="1" seatschange="New"/>
         </div>
         <div name="ov" inc="Estagal (MP)" totalvotes="15">
             <candidate name="Magnetar" party="I" votes="8" change="New" rank="1" elected="yes"/>
@@ -414,8 +417,12 @@
         </div>
     </election>
     <election id="HorFeb20" name="February 2020 LME House elections" parties="yes">
-        <div name="us">
-            <!--<candidate name="Democratic Party" party="D" seats="0"/>-->
+        <div name="us" totalvotes="67" totalseats="15">
+            <candidate name="Democratic Party" party="D" votes="26" change="New" seats="7" seatschange="New"/>
+            <candidate name="Republican Party" party="R" votes="13" change="New" seats="2" seatschange="New"/>
+            <candidate name="Midwest Party" party="MWP" votes="4" change="New" seats="1" seatschange="New"/>
+            <candidate name="Others" party="Oth" votes="11" change="New" seats="2" seatschange="New"/>
+            <candidate name="Independents" party="I" votes="13" change="New" seats="3" seatschange="New"/>
         </div>
         <div name="ov" inc="Corsair (R), Magnetar (D)" totalvotes="15">
             <candidate name="Thread" party="R" votes="6" change="New" rank="1" elected="yes"/>
@@ -445,15 +452,20 @@
             <candidate name="Nathan" party="I" votes="3" change="New"/>
         </div>
         <div name="pc" inc="Obama (I), Hubble (R), Guy (I)" totalvotes="8">
-            <candidate name="TexasBoi" party="R" votes="2" change="New" elected="r"/>
+            <candidate name="TexasInd4ever" party="R" votes="2" change="New" elected="r"/>
             <candidate name="BlowMinds" party="D" votes="2" change="New" elected="r"/>
             <candidate name="Guy" party="I" inc="hor" votes="2" change="New" elected="r"/>
             <candidate name="Obama" party="I" inc="hor" votes="2" change="New" elected="r"/>
             <runoff totalvotes="7">
-                <candidate name="TexasBoi" party="R" votes="2" change="New" elected="yes"/>
-                <candidate name="BlowMinds" party="D" votes="2" change="New" elected="yes"/>
-                <candidate name="Guy" party="I" inc="hor" votes="2" change="New" elected="yes"/>
+                <candidate name="TexasInd4ever" party="R" votes="2" change="New" elected="r"/>
+                <candidate name="BlowMinds" party="D" votes="2" change="New" elected="r"/>
+                <candidate name="Guy" party="I" inc="hor" votes="2" change="New" elected="r"/>
                 <candidate name="Obama" party="I" inc="hor" votes="1" change="New"/>
+            </runoff>
+            <runoff totalvotes="6">
+                <candidate name="BlowMinds" party="D" votes="3" change="New" elected="yes"/>
+                <candidate name="Guy" party="I" inc="hor" votes="2" change="New" elected="yes"/>
+                <candidate name="TexasInd4ever" party="R" votes="1" change="New"/>
             </runoff>
         </div>
     </election>
