@@ -469,4 +469,36 @@
             </runoff>
         </div>
     </election>
+    <election id="BalFeb20" name="February 2020 LME Ballot measures" map="no">
+        <div name="us" totalvotes="67">
+            <measure name="Bill of Rights Amendment" votes="47" win="yes"/>
+            <measure name="Vice President Vacancy Amendment" votes="47" win="yes"/>
+            <measure name="Supreme Court Nomination Integrity Amendment" votes="43" win="yes"/>
+        </div>
+        <div name="ov" totalvotes="11">
+            <measure name="Bill of Rights Amendment" votes="9" win="yes"/>
+            <measure name="Vice President Vacancy Amendment" votes="10" win="yes"/>
+            <measure name="Supreme Court Nomination Integrity Amendment" votes="9" win="yes"/>
+        </div>
+        <div name="pl" totalvotes="11">
+            <measure name="Bill of Rights Amendment" votes="8" win="yes"/>
+            <measure name="Vice President Vacancy Amendment" votes="7" win="yes"/>
+            <measure name="Supreme Court Nomination Integrity Amendment" votes="7" win="yes"/>
+        </div>
+        <div name="dx" totalvotes="16">
+            <measure name="Bill of Rights Amendment" votes="16" win="yes"/>
+            <measure name="Vice President Vacancy Amendment" votes="15" win="yes"/>
+            <measure name="Supreme Court Nomination Integrity Amendment" votes="14" win="yes"/>
+        </div>
+        <div name="ln" totalvotes="10">
+            <measure name="Bill of Rights Amendment" votes="8" win="yes"/>
+            <measure name="Vice President Vacancy Amendment" votes="9" win="yes"/>
+            <measure name="Supreme Court Nomination Integrity Amendment" votes="8" win="yes"/>
+        </div>
+        <div name="pc" totalvotes="10">
+            <measure name="Bill of Rights Amendment" votes="8" win="yes"/>
+            <measure name="Vice President Vacancy Amendment" votes="9" win="yes"/>
+            <measure name="Supreme Court Nomination Integrity Amendment" votes="8" win="yes"/>
+        </div>
+    </election>
 </electionslist>

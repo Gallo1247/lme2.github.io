@@ -25,7 +25,7 @@ function buildEB(xml,divId) {
     if (election.getAttribute('parties') == 'yes' && reg.getAttribute('name') == 'us') { // Seats graph if party
         table += '<tr><td colspan="3" style="text-align:center;"><img width="50%" src="../diagrams/'+divId.substring(0,8)+'.svg"></td></tr>';
     }
-    if (reg.getAttribute('name') == 'us') {
+    if (reg.getAttribute('name') == 'us' && election.getAttribute('map') == 'yes') {
         table += '<tr><td colspan="3"><img width="100%" src="../maps/'+divId.substring(0,8)+'.svg"></td></tr>'; // Map
     }
     console.log(reg)
@@ -174,7 +174,6 @@ function buildEB(xml,divId) {
             var j = 0;
             for (j=0;j<runoff.childElementCount;j++) {
                 tempcandidate = runoff.children[j];
-                console.log(tempcandidate)
                 
                 
                 
@@ -205,6 +204,32 @@ function buildEB(xml,divId) {
                 row += '<abbr style="text-decoration:none;" title="'+tempcandidate.getAttribute('votes')+' votes">'+score+'%</abbr></td></tr>';
             }
             row += '</tbody>'
+        } else if (candidate.tagName == 'measure') {
+
+            // Name
+            if (candidate.getAttribute('win') == 'yes') {elected = 'font-weight:bold;';} else {elected = '';}
+            
+
+            // Scorebar
+            score = Math.round(1000*candidate.getAttribute('votes') / reg.getAttribute('totalvotes'))/10
+
+            row += '<td width="100%" style="';
+            
+            row += 'background-image:'
+            if (score < 49.75) {
+                row += 'linear-gradient(90deg,#00FF00 '+score+'%,#FF0000 '+score+'%,#FF0000 49.75%,black 49.75%,black 50.25%,#FF0000 50.25%)';
+            } else if (score > 50.25) {
+                row += 'linear-gradient(90deg,#00FF00 49.75%,black 49.75%,black 50.25%,#00FF00 50.25%,#00FF00 '+score+'%,#FF0000 '+score+'%)';
+            } else {
+                row += 'linear-gradient(90deg,#00FF00 49.75%,black 49.75%,black 50.25%,#FF0000 50.25%)';
+            }
+                        
+            row += ';text-align:right;font-size:150%;'+elected+'">';
+            
+            row += '<span width="25%" style="padding:3px;white-space:nowrap;float:left;">'+candidate.getAttribute('name')+'</span>';
+            row += '<span width="25%" style="padding:3px;white-space:nowrap;float:right;"><abbr style="text-decoration:none;" title="'+candidate.getAttribute('votes')+' votes for">'+score+'%</abbr></td></span>';
+            
+            row += '</tr>'
         }
         
         
