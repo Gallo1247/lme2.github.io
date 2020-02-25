@@ -120,7 +120,7 @@ function buildEB(xml,divId) {
                 row += ';text-align:right;font-size:150%;'+elected+'">';
                 row += '<ruby>'+candidate.getAttribute('seats')+' seat';
                 if (candidate.getAttribute('seats') != 1) {row += 's'}
-                row += '<rt>'+candidate.getAttribute('change')+'</rt></ruby></td>';
+                row += '<rt>'+candidate.getAttribute('seatschange')+'</rt></ruby></td>';
             }
             row += '</tr>'
         } else if (candidate.tagName == 'primary') {

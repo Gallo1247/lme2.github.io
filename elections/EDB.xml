@@ -280,9 +280,9 @@
     
     <!-- February 2020 -->
     <election id="PreFeb20" name="February 2020 LME Presidential election">
-        <div name="us" incumbent="Vui (I)" totalvotes="67">
+        <div name="us" inc="Vui (I)" totalvotes="67">
             <candidate name="Jhon Pete" party="D" inc="hor" votes="34" rank="1" change="New" elected="yes"/>
-            <candidate name="Gunam" party="R" change="New" votes="24"/>
+            <candidate name="Gunam" party="R" change="+4.9pp" votes="24"/>
             <candidate name="Majorero" party="MP" inc="sen" change="New" votes="6"/>
             <candidate name="Redgentleman443" party="I" change="New" votes="3"/>
             <primary party="D" totalvotes="31">
@@ -367,7 +367,7 @@
         </div>
     </election>
     <election id="VprFeb20" name="February 2020 LME Vice-presidential election">
-        <div name="us" incumbent="Paul (I)" totalvotes="67">
+        <div name="us" inc="Paul (I)" totalvotes="67">
             <candidate name="Trees Warmer" party="I" inc="sen" change="New" votes="36" rank="1" elected="yes"/>
             <candidate name="Corsair" party="R" inc="hor" change="New" votes="31"/>
         </div>
@@ -394,14 +394,14 @@
     </election>
     <election id="SenFeb20" name="February 2020 LME Senate elections" parties="yes">
         <div name="us" totalvotes="44" totalseats="10">
-            <candidate name="Democratic Party" party="D" votes="17" change="New" seats="4" seatschange="New"/>
-            <candidate name="Republican Party" party="R" votes="7" change="New" seats="1" seatschange="New"/>
-            <candidate name="Majorero Party" party="MP" votes="0" change="New" seats="4" seatschange="New"/>
-            <candidate name="Independents" party="I" votes="14" change="New" seats="1" seatschange="New"/>
+            <candidate name="Democratic Party" party="D" votes="17" change="+29.1pp" seats="4" seatschange="+3"/>
+            <candidate name="Republican Party" party="R" votes="7" change="+15.9pp" seats="1" seatschange="="/>
+            <candidate name="Majorero Party" party="MP" votes="0" change="-16.7pp" seats="4" seatschange="-1"/>
+            <candidate name="Independents" party="I" votes="14" change="-11.1pp" seats="1" seatschange="-2"/>
         </div>
         <div name="ov" inc="Estagal (MP)" totalvotes="15">
             <candidate name="Magnetar" party="I" votes="8" change="New" rank="1" elected="yes"/>
-            <candidate name="Estagal" party="R" votes="7" change="New"/>
+            <candidate name="Estagal" party="R" votes="7" change="-2.1pp"/>
             <primary party="D" totalvotes="5">
                 <candidate name="Magnetar" votes="3" nominee="yes"/>
                 <candidate name="Nibblesnow" votes="2"/>
@@ -411,51 +411,51 @@
             <candidate name="Mat" party="D" votes="17" change="New" rank="1" elected="yes"/>
         </div>
         <div name="ln" inc="Toucan (MP)" totalvotes="12">
-            <candidate name="Huey" party="I" votes="6" rank="1" change="New" elected="yes"/>
-            <candidate name="Rox" party="MWP" inc="hor" votes="4" change="New"/>
+            <candidate name="Huey" party="I" votes="6" rank="1" change="+20.6pp" elected="yes"/>
+            <candidate name="Rox" party="MWP" inc="hor" votes="4" change="+9.8pp"/>
             <candidate name="Henry IX" party="Oth" label="Vote for me if you don't care Party" votes="2" change="New"/>
         </div>
     </election>
     <election id="HorFeb20" name="February 2020 LME House elections" parties="yes">
         <div name="us" totalvotes="67" totalseats="15">
-            <candidate name="Democratic Party" party="D" votes="26" change="New" seats="7" seatschange="New"/>
-            <candidate name="Republican Party" party="R" votes="13" change="New" seats="2" seatschange="New"/>
-            <candidate name="Midwest Party" party="MWP" votes="4" change="New" seats="1" seatschange="New"/>
-            <candidate name="Others" party="Oth" votes="11" change="New" seats="2" seatschange="New"/>
-            <candidate name="Independents" party="I" votes="13" change="New" seats="3" seatschange="New"/>
+            <candidate name="Democratic Party" party="D" votes="26" change="+9.2pp" seats="7" seatschange="+2"/>
+            <candidate name="Republican Party" party="R" votes="13" change="-2.8pp" seats="2" seatschange="-2"/>
+            <candidate name="Midwest Party" party="MWP" votes="4" change="+6.0pp" seats="1" seatschange="+1"/>
+            <candidate name="Others" party="Oth" votes="11" change="+10.8pp" seats="2" seatschange="+2"/>
+            <candidate name="Independents" party="I" votes="13" change="-12.1pp" seats="3" seatschange="-2"/>
         </div>
         <div name="ov" inc="Corsair (R), Magnetar (D)" totalvotes="15">
-            <candidate name="Thread" party="R" votes="6" change="New" rank="1" elected="yes"/>
-            <candidate name="Alligator" party="D" votes="6" change="New" elected="yes"/>
+            <candidate name="Thread" party="R" votes="6" change="-10.0pp" rank="1" elected="yes"/>
+            <candidate name="Alligator" party="D" votes="6" change="-10.0pp" elected="yes"/>
             <candidate name="Alea" party="Oth" label="Marxist Leninist" votes="3" change="New"/>
         </div>
         <div name="pl" inc="Adam (J), Jhon Pete (D), Whale (I), Bill (D)" totalvotes="15">
             <candidate name="Archer" party="D" votes="3" change="New" rank="1" elected="yes"/>
-            <candidate name="Adam" party="Oth" label="Win great prizes" inc="hor" votes="3" change="New" elected="yes"/>
-            <candidate name="Whale" party="I" inc="hor" votes="2" change="New" elected="yes"/>
+            <candidate name="Adam" party="Oth" label="Win great prizes" inc="hor" votes="3" change="-15.3pp" elected="yes"/>
+            <candidate name="Whale" party="I" inc="hor" votes="2" change="+1.5pp" elected="yes"/>
             <candidate name="Cheese" party="D" votes="2" change="New" elected="yes"/>
-            <candidate name="Bill" party="D" inc="hor" votes="2" change="New" elected="yes"/>
+            <candidate name="Bill" party="D" inc="hor" votes="2" change="+1.5pp" elected="yes"/>
             <candidate name="Michael" party="R" inc="cab" votes="1" change="New"/>
-            <candidate name="Spiro Agnew" party="Oth" label="Nixon Party" votes="1" change="New"/>
-            <candidate name="ADrewster" party="I" votes="1" change="New"/>
+            <candidate name="Spiro Agnew" party="Oth" label="Nixon Party" votes="1" change="-5.1pp"/>
+            <candidate name="ADrewster" party="I" votes="1" change="-5.1pp"/>
         </div>
         <div name="dx" inc="DustinTheNow (I), Xibei (D), Thomas (I), Mystic Mudsin (R)" totalvotes="17">
-            <candidate name="Mystic Mudsin" party="R" inc="hor" votes="4" change="New" rank="1" elected="yes"/>
-            <candidate name="Thomas" party="Oth" label="Marianne Williamson" inc="hor" votes="4" change="New" elected="yes"/>
+            <candidate name="Mystic Mudsin" party="R" inc="hor" votes="4" change="+8.1pp" rank="1" elected="yes"/>
+            <candidate name="Thomas" party="Oth" label="Marianne Williamson" inc="hor" votes="4" change="+8.1pp" elected="yes"/>
             <candidate name="Dane" party="D" votes="4" change="New" elected="yes"/>
-            <candidate name="DustinTheNow" party="I" inc="hor" votes="3" change="New" elected="yes"/>
-            <candidate name="Xibei" party="D" inc="hor" votes="2" change="New"/>
+            <candidate name="DustinTheNow" party="I" inc="hor" votes="3" change="-20.9pp" elected="yes"/>
+            <candidate name="Xibei" party="D" inc="hor" votes="2" change="-3.6pp"/>
         </div>
         <div name="ln" inc="Rox (R), Pence (D)" totalvotes="12">
             <candidate name="Raccoon Man" party="D" inc="hor" votes="5" change="New" rank="1" elected="yes"/>
             <candidate name="OP" party="MWP" votes="4" change="New" elected="yes"/>
-            <candidate name="Nathan" party="I" votes="3" change="New"/>
+            <candidate name="Nathan" party="I" votes="3" change="+17.9pp"/>
         </div>
         <div name="pc" inc="Obama (I), Hubble (R), Guy (I)" totalvotes="8">
-            <candidate name="TexasInd4ever" party="R" votes="2" change="New" elected="r"/>
+            <candidate name="TexasInd4ever" party="R" votes="2" change="=" elected="r"/>
             <candidate name="BlowMinds" party="D" votes="2" change="New" elected="r"/>
-            <candidate name="Guy" party="I" inc="hor" votes="2" change="New" elected="r"/>
-            <candidate name="Obama" party="I" inc="hor" votes="2" change="New" elected="r"/>
+            <candidate name="Guy" party="I" inc="hor" votes="2" change="=" elected="r"/>
+            <candidate name="Obama" party="I" inc="hor" votes="2" change="=" elected="r"/>
             <runoff totalvotes="7">
                 <candidate name="TexasInd4ever" party="R" votes="2" change="New" elected="r"/>
                 <candidate name="BlowMinds" party="D" votes="2" change="New" elected="r"/>
