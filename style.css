@@ -124,6 +124,15 @@ body {
     background-color: gainsboro;
 }
 
+.title3 {
+    font-family: GothamMedium;
+    margin: 5px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    background-color: gainsboro;
+}
+
 p {
     padding: 5px;
     text-align: center;
