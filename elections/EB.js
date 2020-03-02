@@ -253,6 +253,7 @@ function PartyName(abbr,label) {
     switch(abbr) {
         case 'D': return('Democratic Party');
         case 'R': return('Republican Party');
+        case 'L': return('New Liberty Party');
         case 'MWP': return('Midwest Party');
         case 'MP': return('Majorero Party');
         case 'KMP': return('King\'s Movement Party');
@@ -270,6 +271,7 @@ function PartyColor(abbr) {
     switch(abbr) {
         case 'D': return('#3333FF');
         case 'R': return('#E81B23');
+        case 'L': return('#EFBD40');
         case 'MWP': return('#CC8960');
         case 'MP': return('#0E8518');
         case 'KMP': return('#EFBD40');

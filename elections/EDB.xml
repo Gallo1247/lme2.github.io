@@ -501,4 +501,86 @@
             <measure name="Supreme Court Nomination Integrity Amendment" votes="8" win="yes"/>
         </div>
     </election>
+    <election id="SenMar20" name="March 2020 LME Senate elections" parties="yes">
+        <div name="us" totalvotes="42" totalseats="10">
+            <candidate name="New Liberty Party" party="L" votes="22" change="New" seats="2" seatschange="" rank="1" elected="yes"/>
+            <candidate name="Democratic Party" party="D" votes="21" change="New" seats="0" seatschange=""/>
+            <candidate name="Republican Party" party="R" votes="0" change="New" seats="0" seatschange=""/>
+            <candidate name="Others" party="Oth" votes="0" change="New" seats="0" seatschange=""/>
+            <candidate name="Independents" party="I" votes="7" change="New" seats="1" seatschange=""/>
+        </div>
+        <div name="PL" inc="Thom (D)" totalvotes="31">
+            <candidate name="Computerguy" party="L" votes="16" change="New" rank="1" elected="yes"/>
+            <candidate name="Bill" party="D" votes="15" change="New"/>
+            <!--<primary party="D" totalvotes="5">
+                <candidate name="" votes="" nominee="yes"/>
+                <candidate name="" votes=""/>
+            </primary>-->
+        </div>
+        <div name="LN" inc="Toucan (D)" totalvotes="11">
+            <candidate name="Bamgo" party="L" votes="6" change="New" rank="1" elected="yes"/>
+            <candidate name="Toucan" party="D" votes="5" change="New"/>
+            <!--<primary party="D" totalvotes="5">
+                <candidate name="" votes="" nominee="yes"/>
+                <candidate name="" votes=""/>
+            </primary>-->
+        </div>
+        <div name="PC" inc="Dennis (D)" totalvotes="8">
+            <candidate name="Obama" party="I" votes="7" change="New" rank="1" elected="yes"/>
+            <candidate name="TheCakeMuffinCrew" party="D" votes="1" change="New"/>
+            <!--<primary party="D" totalvotes="5">
+                <candidate name="" votes="" nominee="yes"/>
+                <candidate name="" votes=""/>
+            </primary>-->
+        </div>
+    </election>
+    <election id="HorMar20" name="March 2020 LME House elections" parties="yes">
+        <div name="us" totalvotes="79" totalseats="15">
+            <candidate name="Democratic Party" party="D" votes="41" change="New" seats="7" seatschange="" rank="1" elected="yes"/>
+            <candidate name="Republican Party" party="R" votes="14" change="New" seats="2" seatschange=""/>
+            <candidate name="New Liberty Party" party="L" votes="10" change="New" seats="2" seatschange=""/>
+            <candidate name="Others" party="Oth" votes="3" change="New" seats="1" seatschange=""/>
+            <candidate name="Independents" party="I" votes="13" change="New" seats="3" seatschange=""/>
+        </div>
+        <div name="ov" inc="Thread (R), Alligator (D)" totalvotes="18">
+            <candidate name="Corsair" party="R" votes="5" change="New" rank="1" elected="yes"/>
+            <candidate name="Alligator" party="D" votes="5" change="New" elected="yes"/>
+            <candidate name="Noot Noot" party="D" votes="5" change="New" elected="yes"/>
+            <candidate name="Osito" party="D" votes="4" change="New"/>
+            <candidate name="Amazer" party="R" votes="2" change="New"/>
+            <!--<primary party="D" totalvotes="5">
+                <candidate name="" votes="" nominee="yes"/>
+                <candidate name="" votes=""/>
+            </primary>-->
+        </div>
+        <div name="pl" inc="Archer (D), Adam (Oth), Whale (I), Cheese (D), Bill (D)" totalvotes="31">
+            <candidate name="LOTR" party="R" votes="7" change="New" rank="1" elected="yes"/>
+            <candidate name="Catman" party="L" votes="5" change="New" elected="yes"/>
+            <candidate name="Cheese" party="D" votes="5" change="New" elected="yes"/>
+            <candidate name="Moss" party="D" votes="5" change="New" elected="yes"/>
+            <candidate name="Michael" party="I" votes="3" change="New" elected="r"/>
+            <candidate name="ADrewster" party="D" votes="3" change="New" elected="r"/>
+            <candidate name="Adam" party="I" votes="2" change="New"/>
+            <candidate name="Archer" party="D" votes="1" change="New"/>
+        </div>
+        <div name="dx" inc="Mystic (R), Thomas (Oth), Dane (D), Dustin (I)" totalvotes="11">
+            <candidate name="Thomas" party="I" votes="4" change="New" rank="1" elected="yes"/>
+            <candidate name="Dane" party="D" votes="4" change="New" elected="yes"/>
+            <candidate name="Dustin" party="I" votes="3" change="New" elected="yes"/>
+            <candidate name="Lapis" party="Oth" label="Blobcat Party" votes="2" change="New" elected="yes"/>
+            <candidate name="Mystic Mudsin" party="L" votes="1" change="New"/>
+            <candidate name="Rickety Ryan" party="L" votes="1" change="New"/>
+        </div>
+        <div name="ln" inc="Raccoon Man (D), OP (MWP)" totalvotes="11">
+            <candidate name="Toucan" party="D" votes="3" change="New" rank="1" elected="yes"/>
+            <candidate name="Nathan" party="L" votes="3" change="New" elected="yes"/>
+            <candidate name="Holy Boyo" party="I" votes="2" change="New"/>
+            <candidate name="OP" party="D" votes="2" change="New"/>
+            <candidate name="Henry IX" party="MWP" votes="1" change="New"/>
+        </div>
+        <div name="pc" inc="Blowminds (D), Guy (I)" totalvotes="8">
+            <candidate name="Blowminds" party="D" votes="4" change="New" rank="1" elected="yes"/>
+            <candidate name="Guy" party="I" votes="4" change="New" elected="yes"/>
+        </div>
+    </election>
 </electionslist>

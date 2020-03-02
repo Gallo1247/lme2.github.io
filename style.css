@@ -6,6 +6,7 @@ body {
 :root {
     --demc: #3333FF; /* Democratic Party */
     --repc: #E81B23; /* Republican Party */
+    --nlpc: #EFBD40; /* New Liberty Party */
     --mwpc: #CC8960; /* Midwest Party */
     --jewc: #F092C4; /* Jew Party */
     --majc: #0E8518; /* Majorero Party */
@@ -177,6 +178,8 @@ p {
 .l-rep {border-right: 2px solid var(--repc);}
 .r-dem {border-left: 2px solid var(--demc);}
 .l-dem {border-right: 2px solid var(--demc);}
+.r-nlp {border-left: 2px solid var(--nlpc);}
+.l-nlp {border-right: 2px solid var(--nlpc);}
 .r-mwp {border-left: 2px solid var(--mwpc);}
 .l-mwp {border-right: 2px solid var(--mwpc);}
 .r-grn {border-left: 2px solid var(--grnc);}

@@ -1,0 +1,127 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Let's Mock Elections 2 - The official website</title>
+    
+    <script src="../script.js" type="text/javascript"></script>
+    <script src="EB.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Let's Mock Elections 2</h1>
+        <h2>The mock elections community's official website</h2>
+    </div>
+    
+    <div class="navbar">'
+        <a href="/index.html">Homepage</a>
+        <a href="/government.html">Government</a>
+        <a href="/elections/summary.html" class="active">Elections</a>
+        <a href="/legislation.html">Laws</a>
+        <a href="/rankings.html">Politicians</a>
+        <a href="/records.html">Records</a>
+        <a href="/regions.html">Regions</a>
+        <a href="https://discord.gg/D33wqMs" class="right">Join</a>
+    </div>
+    
+    <div class="content">
+        
+        <div style="margin-top:10px;">
+            <table style="margin:auto;font-size:100%;text-align:center;">
+                <tr><td colspan="6" style="font-size:120%"><b>Elections</b></td></tr>
+                <tr>
+                    <td colspan="2" width="33.3%" style="padding:2px;"><a class="small-link" href="Feb20.html">Feb 2020</a></td>
+                    <td colspan="2" width="33.4%">Mar 2020</td>
+                    <td colspan="2" width="33.3%" style="padding:2px;">Apr 2020</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="row">
+            <div class="main title0" style="margin-top:10px">
+                <h1>March 2020 Elections</h1>
+            </div>
+        </div>
+
+        <!-- DESCRIPTION -->
+        <div class="row">
+            <div class="main">
+                <p>The <b>March 2020 LME2 Elections</b> were held on the 1st of March 2020. They featured Senate (1st class), and House of Representatives elections.</p>
+                <br><p style="font-weight:bold;">Incumbents are represented with the letters: Ꞧ for Representatives, Ꞩ for Senator, Ȼ for member of the presidential Cabinet.</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="main title0" style="margin-top:10px;">
+                <h1>National results</h1>
+            </div>
+        </div>
+        <div id="SenMar20us"></div>
+        <div id="HorMar20us"></div>
+        <div id="BalMar20us"></div>
+        
+        <div class="row">
+            <div class="main title0" style="margin-top:10px;">
+                <h1>Overseas results</h1>
+            </div>
+        </div>
+        <div id="HorMar20ov"></div>
+        <div id="BalMar20ov"></div>
+        
+        <div class="row">
+            <div class="main title0" style="margin-top:10px;">
+                <h1>Plymouth results</h1>
+            </div>
+        </div>
+        <div id="SenMar20PL"></div>
+        <div id="HorMar20pl"></div>
+        <div id="BalMar20pl"></div>
+        
+        <div class="row">
+            <div class="main title0" style="margin-top:10px;">
+                <h1>Dixie results</h1>
+            </div>
+        </div>
+        <div id="HorMar20dx"></div>
+        <div id="BalMar20dx"></div>
+        
+        <div class="row">
+            <div class="main title0" style="margin-top:10px;">
+                <h1>Lincoln results</h1>
+            </div>
+        </div>
+        <div id="SenMar20LN"></div>
+        <div id="HorMar20ln"></div>
+        <div id="BalMar20ln"></div>
+        
+        <div class="row">
+            <div class="main title0" style="margin-top:10px;">
+                <h1>Pacifica results</h1>
+            </div>
+        </div>
+        <div id="SenMar20PC"></div>
+        <div id="HorMar20pc"></div>
+        <div id="BalMar20pc"></div>
+        
+    </div>
+    
+    <script>footer();</script>
+    <script>
+        loadEB("SenMar20us");
+        loadEB("SenMar20PL");
+        loadEB("SenMar20LN");
+        loadEB("SenMar20PC");
+        loadEB("HorMar20us");
+        loadEB("HorMar20ov");
+        loadEB("HorMar20pl");
+        loadEB("HorMar20dx");
+        loadEB("HorMar20ln");
+        loadEB("HorMar20pc");
+        loadEB("BalMar20us");
+        loadEB("BalMar20ov");
+        loadEB("BalMar20pl");
+        loadEB("BalMar20dx");
+        loadEB("BalMar20ln");
+        loadEB("BalMar20pc");
+    </script>
+</body>
+</html>
