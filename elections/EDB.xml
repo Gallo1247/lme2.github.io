@@ -74,7 +74,7 @@
             <candidate name="Moss" party="D" votes="10" change="New"/>
         </div>
         <div name="DX" totalvotes="20" totalseats="1">
-            <candidate name="MS Dhoni" party="D" votes="14" change="New" rank="1" elected="yes"/>
+            <candidate name="Tanisha" party="D" votes="14" change="New" rank="1" elected="yes"/>
             <candidate name="LapisLuna" party="Bc" votes="6" change="New"/>
         </div>
         <div name="dx" totalvotes="20" totalseats="1">
@@ -204,8 +204,8 @@
             <candidate name="Centauri" party="J" inc="sen" votes="13" change="+22.0pp" rank="1" elected="yes"/>
             <candidate name="Archer" party="D" votes="4" change="-22.2pp"/>
         </div>
-        <div name="dx" inc="MS Dhoni (D)" totalvotes="13" totalseats="1">
-            <candidate name="MS Dhoni" party="I" inc="sen" votes="8" change="-8.5pp" rank="1" elected="yes"/>
+        <div name="dx" inc="Tanisha (D)" totalvotes="13" totalseats="1">
+            <candidate name="Tanisha" party="I" inc="sen" votes="8" change="-8.5pp" rank="1" elected="yes"/>
         </div>
         <div name="pc" inc="Dennisman (D)" totalvotes="12" totalseats="1">
             <candidate name="Fil" party="I" votes="10" change="New" rank="1" elected="yes"/>
@@ -448,7 +448,7 @@
         </div>
         <div name="ln" inc="Rox (R), Pence (D)" totalvotes="12">
             <candidate name="Raccoon Man" party="D" inc="hor" votes="5" change="New" rank="1" elected="yes"/>
-            <candidate name="OP" party="MWP" votes="4" change="New" elected="yes"/>
+            <candidate name="Gus" party="MWP" votes="4" change="New" elected="yes"/>
             <candidate name="Nathan" party="I" votes="3" change="+17.9pp"/>
         </div>
         <div name="pc" inc="Obama (I), Hubble (R), Guy (I)" totalvotes="8">
@@ -566,21 +566,155 @@
         <div name="dx" inc="Mystic (R), Thomas (Oth), Dane (D), Dustin (I)" totalvotes="11">
             <candidate name="Thomas" party="I" votes="4" change="New" rank="1" elected="yes"/>
             <candidate name="Dane" party="D" votes="4" change="New" elected="yes"/>
-            <candidate name="Dustin" party="I" votes="3" change="New" elected="yes"/>
+            <candidate name="DustinTheNow" party="I" votes="3" change="New" elected="yes"/>
             <candidate name="Lapis" party="Oth" label="Blobcat Party" votes="2" change="New" elected="yes"/>
             <candidate name="Mystic Mudsin" party="L" votes="1" change="New"/>
             <candidate name="Rickety Ryan" party="L" votes="1" change="New"/>
         </div>
-        <div name="ln" inc="Raccoon Man (D), OP (MWP)" totalvotes="11">
+        <div name="ln" inc="Raccoon Man (D), Gus (MWP)" totalvotes="11">
             <candidate name="Toucan" party="D" votes="3" change="New" rank="1" elected="yes"/>
             <candidate name="Nathan" party="L" votes="3" change="New" elected="yes"/>
             <candidate name="Holy Boyo" party="I" votes="2" change="New"/>
-            <candidate name="OP" party="D" votes="2" change="New"/>
+            <candidate name="Gus" party="D" votes="2" change="New"/>
             <candidate name="Henry IX" party="MWP" votes="1" change="New"/>
         </div>
         <div name="pc" inc="Blowminds (D), Guy (I)" totalvotes="8">
             <candidate name="Blowminds" party="D" votes="4" change="New" rank="1" elected="yes"/>
             <candidate name="Guy" party="I" votes="4" change="New" elected="yes"/>
+        </div>
+    </election>
+    <election id="PreApr20" name="April 2020 LME Presidential election">
+        <div name="us" inc="Jhon Pete (D)" totalvotes="123">
+            <candidate name="Mat" party="D" votes="92" change="New" rank="1" elected="yes"/>
+            <candidate name="Thread" party="I" votes="31" change="New"/>
+        </div>
+        <div name="ov" totalvotes="23">
+            <candidate name="Mat" party="D" votes="18" change="New" rank="1" elected="yes"/>
+            <candidate name="Thread" party="I" votes="5" change="New"/>
+        </div>
+        <div name="pl" totalvotes="35">
+            <candidate name="Mat" party="D" votes="24" change="New" rank="1" elected="yes"/>
+            <candidate name="Thread" party="I" votes="11" change="New"/>
+        </div>
+        <div name="dx" totalvotes="31">
+            <candidate name="Mat" party="D" votes="24" change="New" rank="1" elected="yes"/>
+            <candidate name="Thread" party="I" votes="7" change="New"/>
+        </div>
+        <div name="ln" totalvotes="21">
+            <candidate name="Mat" party="D" votes="15" change="New" rank="1" elected="yes"/>
+            <candidate name="Thread" party="I" votes="6" change="New"/>
+        </div>
+        <div name="pc" totalvotes="13">
+            <candidate name="Mat" party="D" votes="11" change="New" rank="1" elected="yes"/>
+            <candidate name="Thread" party="I" votes="2" change="New"/>
+        </div>
+    </election>
+    <election id="VprApr20" name="April 2020 LME Vice-presidential election">
+        <div name="us" inc="Trees Warmer (I)" totalvotes="123">
+            <candidate name="Centauri" party="D" votes="76" change="New" rank="1" elected="yes"/>
+            <candidate name="Catman" party="R" votes="47" change="New"/>
+        </div>
+        <div name="ov" totalvotes="23">
+            <candidate name="Centauri" party="D" votes="14" change="New" rank="1" elected="yes"/>
+            <candidate name="Catman" party="R" votes="9" change="New"/>
+        </div>
+        <div name="pl" totalvotes="35">
+            <candidate name="Centauri" party="D" votes="22" change="New" rank="1" elected="yes"/>
+            <candidate name="Catman" party="R" votes="13" change="New"/>
+        </div>
+        <div name="dx" totalvotes="31">
+            <candidate name="Centauri" party="D" votes="18" change="New" rank="1" elected="yes"/>
+            <candidate name="Catman" party="R" votes="13" change="New"/>
+        </div>
+        <div name="ln" totalvotes="21">
+            <candidate name="Centauri" party="D" votes="14" change="New" rank="1" elected="yes"/>
+            <candidate name="Catman" party="R" votes="7" change="New"/>
+        </div>
+        <div name="pc" totalvotes="13">
+            <candidate name="Centauri" party="D" votes="8" change="New" rank="1" elected="yes"/>
+            <candidate name="Catman" party="R" votes="5" change="New"/>
+        </div>
+    </election>
+    <election id="SenApr20" name="April 2020 LME Senate elections" parties="yes">
+        <div name="us" totalvotes="" totalseats="10">
+            <candidate name="Democratic Party" party="D" votes="" change="New" seats="0" seatschange=""/>
+            <candidate name="Republican Party" party="R" votes="0" change="New" seats="0" seatschange=""/>
+            <candidate name="New Liberty Party" party="L" votes="0" change="New" seats="2" seatschange=""/>
+            <candidate name="Others" party="Oth" votes="0" change="New" seats="0" seatschange=""/>
+            <candidate name="Independents" party="I" votes="" change="New" seats="1" seatschange=""/>
+        </div>
+        <div name="ov" totalvotes="23" inc="Majorero (R)">
+            <candidate name="Majorero" party="D" votes="6" change="New" rank="1" elected="yes"/>
+            <candidate name="Majorero" party="R" votes="4" change="New"/>
+            <candidate name="Majorero" party="MP" votes="3" change="New"/>
+            <candidate name="Julio974" party="I" votes="10" change="New"/>
+        </div>
+        <div name="pl" totalvotes="35" inc="Centauri (J)">
+            <candidate name="Paul" party="I" votes="35" change="New" rank="1" elected="yes"/>
+        </div>
+        <div name="dx" totalvotes="31" inc="Tanisha (I)">
+            <candidate name="Tanisha" party="I" votes="17" change="New" rank="1" elected="yes"/>
+            <candidate name="DustinTheNow" party="R" votes="14" change="New"/>
+        </div>
+        <div name="pc" totalvotes="13" inc="Spicy (D)">
+            <candidate name="Spicy" party="D" votes="13" change="New" rank="1" elected="yes"/>
+        </div>
+    </election>
+    <election id="HorApr20" name="April 2020 LME House of Representatives elections" parties="yes">
+        <div name="us" totalvotes="123" totalseats="13">
+            <candidate name="Democratic Party" party="D" votes="58" change="New" seats="11" rank="1" seatschange=""/>
+            <candidate name="Republican Party" party="R" votes="32" change="New" seats="3" seatschange=""/>
+            <candidate name="Others" party="Oth" votes="7.5" change="New" seats="2" seatschange=""/>
+            <candidate name="Independents" party="I" votes="21.5" change="New" seats="3" seatschange=""/>
+        </div>
+        <div name="ov" totalvotes="23">
+            <candidate name="Alligator" party="D" votes="10" change="New" rank="1" elected="yes"/>
+            <candidate name="Corsair" party="R" votes="6" change="New" elected="yes"/>
+            <candidate name="Osito" party="D" votes="3" change="New" elected="yes"/>
+            <candidate name="Kermick" party="D" votes="2" change="New" elected="r"/>
+            <candidate name="Terkeypie" party="D" votes="2" change="New" elected="r"/>
+        </div>
+        <div name="pl" totalvotes="35">
+            <candidate name="Cheese" party="D" votes="12" change="New" rank="1" elected="yes"/>
+            <candidate name="Moss" party="D" votes="9" change="New" elected="yes"/>
+            <candidate name="Michael" party="I" votes="6" change="New" elected="yes"/>
+            <candidate name="Morg20" party="R" votes="5" change="New"/>
+            <candidate name="Tricky" party="R" votes="3" change="New"/>
+        </div>
+        <div name="PL" totalvotes="35">
+            <candidate name="Herrzog" party="D" votes="11" change="New" rank="1" elected="yes"/>
+            <candidate name="Jhon Pete" party="D" votes="10" change="New" elected="yes"/>
+            <candidate name="Dino" party="I" votes="6" change="New" elected="yes"/>
+            <candidate name="Boseph Jiden" party="R" votes="5" change="New"/>
+            <candidate name="LunchMeatPlays" party="R" votes="3" change="New"/>
+        </div>
+        <div name="dx" totalvotes="31">
+            <candidate name="Dankus" party="R" votes="14" change="New" rank="1" elected="yes"/>
+            <candidate name="Dane" party="D" votes="10" change="New" elected="yes"/>
+            <candidate name="LapisLuna" party="Oth" label="Blobcat" votes="7" change="New" elected="yes"/>
+        </div>
+        <div name="DX" totalvotes="31">
+            <candidate name="Chocorho" party="D" votes="8" change="New" rank="1" elected="yes"/>
+            <candidate name="Thomas" party="Oth" label="Do not vote for me" votes="8" change="New" elected="yes"/>
+            <candidate name="Auburnfighter" party="R" votes="6" change="New"/>
+            <candidate name="Grove" party="I" votes="4" change="New"/>
+            <candidate name="Suraj" party="I" votes="3" change="New"/>
+            <candidate name="DarkScythe" party="I" votes="2" change="New"/>
+        </div>
+        <div name="ln" totalvotes="21">
+            <candidate name="Rakmishak" party="D" votes="5" change="New" rank="1" elected="yes"/>
+            <candidate name="Nathan" party="R" votes="5" change="New" elected="yes"/>
+            <candidate name="Gus" party="I" votes="4" change="New" elected="yes"/>
+            <candidate name="Paranioa" party="I" votes="3" change="New" elected=""/>
+            <candidate name="Ben Shapiro" party="R" votes="2" change="New" elected=""/>
+            <candidate name="Holy Boyo" party="R" votes="1" change="New" elected=""/>
+            <candidate name="Mike Pencil" party="D" votes="1" change="New" elected=""/>
+        </div>
+        <div name="pc" totalvotes="13">
+            <candidate name="TexasInd4Ever" party="D" votes="6" change="New" rank="1" elected="yes"/>
+            <candidate name="Guy" party="I" votes="3" change="New" elected="yes"/>
+            <candidate name="Fanstar1" party="D" votes="3" change="New" elected="yes"/>
+            <candidate name="BlowMinds" party="I" votes="1" change="New" elected=""/>
         </div>
     </election>
 </electionslist>

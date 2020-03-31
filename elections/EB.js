@@ -52,7 +52,7 @@ function buildEB(xml,divId) {
             // Image (not if party)
             if (election.getAttribute('parties') != 'yes' || reg.getAttribute('name') != 'us') {
                 row += '<tr><td width="auto">';
-                row += '<img width="37.2px" src="../images/'+candidate.getAttribute('name')+'.png" style="display:block;">'
+                row += '<img width="37.2px" src="../images/'+candidate.getAttribute('name')+'.jpg" style="display:block;">'
                 row += '</td>'
             }
 
@@ -139,7 +139,7 @@ function buildEB(xml,divId) {
                 
                 // Image (not if party)
                 row += '<tr><td width="auto;">';
-                row += '<img width="37.2px" src="../images/'+tempcandidate.getAttribute('name')+'.png" style="display:block;">'
+                row += '<img width="37.2px" src="../images/'+tempcandidate.getAttribute('name')+'.jpg" style="display:block;">'
                 row += '</td>'
 
                 // Name
@@ -180,7 +180,7 @@ function buildEB(xml,divId) {
                 
                 // Image (not if party)
                 row += '<tr><td width="auto;">';
-                row += '<img width="37.2px" src="../images/'+tempcandidate.getAttribute('name')+'.png" style="display:block;">'
+                row += '<img width="37.2px" src="../images/'+tempcandidate.getAttribute('name')+'.jpg" style="display:block;">'
                 row += '</td>'
 
                 // Name
