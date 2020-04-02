@@ -558,8 +558,8 @@
             <candidate name="Catman" party="L" votes="5" change="New" elected="yes"/>
             <candidate name="Cheese" party="D" votes="5" change="New" elected="yes"/>
             <candidate name="Moss" party="D" votes="5" change="New" elected="yes"/>
-            <candidate name="Michael" party="I" votes="3" change="New" elected="r"/>
-            <candidate name="ADrewster" party="D" votes="3" change="New" elected="r"/>
+            <candidate name="Michael" party="I" votes="3" change="New" elected="yes"/>
+            <candidate name="ADrewster" party="D" votes="3" change="New" elected="yes"/>
             <candidate name="Adam" party="I" votes="2" change="New"/>
             <candidate name="Archer" party="D" votes="1" change="New"/>
         </div>
@@ -673,6 +673,10 @@
             <candidate name="Osito" party="D" votes="3" change="New" elected="yes"/>
             <candidate name="Kermick" party="D" votes="2" change="New" elected="r"/>
             <candidate name="Terkeypie" party="D" votes="2" change="New" elected="r"/>
+            <runoff totalvotes="15">
+                <candidate name="Kermick" party="D" votes="10" rank="1" elected="yes"/>
+                <candidate name="Terkeypie" party="D" votes="5"/>
+            </runoff>
         </div>
         <div name="pl" totalvotes="35">
             <candidate name="Cheese" party="D" votes="12" change="New" rank="1" elected="yes"/>
